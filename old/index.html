@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Import Google Icon Font-->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+       <!--Import materialize.css-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+       <link type="text/css" rel="stylesheet" href="pr.css"  media="screen,projection"/>
+
+       <!-- font-awesome initialized-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!--USER JAVASCRIPT-->
+       <script src="pr.js"></script>
+</head>
+
+<body  class="container blue lighten-4">
+
+<div id="bod">
+    <div class="row red accent-2 card-panel">
+      <div class="col xl2 l2 m2 s2 ">
+        <a id="pro" onclick="menusides()" class="btn btn-floating indigo " ><i class="material-icons">menu</i></a></div>
+        <div class="center-align col xl8 l8 m8 s8 ">
+       <h4 style="color:white" id="head1" class="center-align ">PORTFOLIO</h4></div>
+       <div class=" col xl2 l2 m2 s2">
+         <a id="pro1" onclick="prosides()" class="btn btn-floating z-index-2  green darken-2 " ><i class="material-icons">person</i></a></div>
+       </div></div>
+
+
+  <ul id="menusid" class="menuside" >
+    <li class="center-align indigo lighten-3" id="tabhead"><strong>PROJECTS</strong></a><i onclick="closa()" id="cross" class="material-icons c">clear</i></li><div class="divider"></div>
+    <li onclick="project()" class="tabs">ASET ALIAS WEB APPLICATION</li>
+    <li onclick="project()" class="tabs">NEWS WEBSITE</li>
+    <li onclick="project()" class="tabs">BUISNESS WEBSITE</li>
+    <li onclick="project()" class="tabs">PORTFOLIO</li>
+  </ul>
+<div id="alertb">
+  <p class="flow-text"><strong>PROJECTS ARE EITHER OF CONTRIBUTING NATURE OR AT MY PERSONAL DRIVE</strong></p>
+  <div  onclick="projectclose()" class="okbtn"><h4>OK</h4></div>
+</div>
+<ul id="profile" draggable="true" class="proside">
+  <li ><i onclick="closb()" id="cross2" class="material-icons b">clear</i><img class="i1 " src="dp1.jpg"></li>
+  <li class="teal center-align flow-text"><h5>AKSHAT PANDE</h5></li>
+  <li class="green lighten-4 center-align flow-text"><p class="college"><strong>AMITY UNIVERSITY UTTAR PRADESH(LUCKNOW CAMPUS)</strong></p></li>
+  <li class="green lighten-2 center-align flow-text"><p class=""><strong>BTECH(CSE)</strong></p></li>
+  <li class="blue lighten-2 center-align flow-text"><p class="">SKILLS: HTML,CSS,C-LANGUAGE, JAVASCRIPT,MATERIALIZE(CSS-LIBRARY),FONT-AWESOME(ICON-LIBRARY),GIT,JAVA</p></li>
+  </ul>
+
+<div id="bod1" class="container">
+  <div class="picture">
+   <img class="responsive-img" src="n1.jpg" id="p1">
+   <img class="responsive-img" src="n2.jpg" id="p2">
+   <img class="responsive-img" src="n3.jpg" id="p3">
+   <img class="responsive-img" src="n4.jpg" id="p4">
+
+ </div>
+ </div>
+
+ <div id="ft" class="container card panel cyan lighten-5 foot">
+<div class="row row1 valign-wrapper">
+
+     <div class="col xl4 l4 m4 s4 center-align  felement"><a href="mailto:pande.akshat21@gmail.com" class="fa fa-google-plus-official fa-2x"></a></div>
+     <div class="col xl4 l4 m4 s4 center-align  felement"><a href="https://www.facebook.com/akshat.pande.547?ref=bookmarks" class="fa fa-facebook fa-2x"></a></div>
+     <div class="col xl4 l4 m4 s4 center-align  felement"><a href="https://github.com/akshat0047" class="fa fa-github fa-2x"></a></div>
+   </div>
+</div>
+</body>
+
+
+
+</html>
