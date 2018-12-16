@@ -60,15 +60,17 @@ box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.8);
     color:rgb(201, 49, 49);
     font-size:2.0em;
 }
-.content-air{
+.air-desk-big{
     position: absolute;
     width:100%;
     z-index:  2;
     height:auto;
     background-color:rgba(0,0,0,0);
-    top:43%;
+    top:40%;
 }
-
+.air-desk-small{
+    display:none;
+}
 .item-row{
     position: relative;
 }
@@ -160,16 +162,22 @@ box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.8);
     transition: all 1s;
     padding:3px;
 }
-.skill-set{
+.skill-set-desk{
     position: relative;
     font-family: 'PT Sans', sans-serif;
     color:white;
     width:80%;
     height:100%;
-    left:10%;
+    left:14%;
     padding: 10px;
     border-radius:10px;
-    top:35px;
+    top:40px;
+}
+.skill-set-tab{
+    display:none;
+}
+.skill-set-mob{
+    display:none;
 }
 .side-element{
     display:block;
@@ -192,7 +200,7 @@ box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.8);
 }
 
 
-@media all and (max-width:1199px)
+@media all and (max-width:570px)
 {
 
      html,body{
@@ -246,14 +254,17 @@ box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.8);
             color:rgb(201, 49, 49);
             font-size:1.2em;
         }
-        .content-air{
+        .air-desk-big{
             position: absolute;
             width:100%;
             z-index:  2;white
             height:auto;
             background-color:rgba(0,0,0,0);
             top:59vw;
-        }      
+        }   
+        .air-desk-small{
+            display:none;
+        }   
         .item-row{
             position: relative;
         }     
@@ -281,11 +292,11 @@ box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.8);
             position: relative;
             word-wrap: break-word;
             font-family: 'PT Sans', sans-serif;
-            width: 87%;
+            width: 100%;
             margin: auto;
             font-size:0.8em;
             margin-top:20%;
-            margin-left:8%;
+            margin-left:1%;
             height:auto;
             color:rgba(251,251,251,0.9);
             padding:15px;
@@ -313,8 +324,163 @@ box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.8);
             transition: all 1s;
             padding:2px;
         }
-        .skill-set{
+        .skill-set-desk{
             display: none;
+        }
+        .skill-set-desk{
+            display: none;
+        }
+        .skill-set-mob{
+            
+        }
+        .side-element{
+            display:block;
+        }
+}
+
+@media all and (min-width:571px) and (max-width:1199px)
+{
+
+     html,body{
+            overflow-x:hidden;
+        }
+        #super-box{
+        position: relative;
+        display:block;
+        background-color:rgb(252, 252, 252);
+        width:100%;
+        height:auto;
+        background-color:rgb(163, 195, 214);
+        box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.8);
+        -moz-box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.8);
+        -webkit-box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.8);
+        }
+        .upper-section{
+            position: relative;
+            width:100%;
+            height: 80vw;
+            display: block;
+            z-index: 0;
+            border-bottom: 2px solid rgba(251,251,251,0.9);
+            background:url("cover.jpg");
+            background-attachment: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: -50px;
+            box-shadow: 0 0 3px 0x rgba(0,0,0,0.8);
+            -moz-box-shadow:0 0 3px 0 rgba(0,0,0,0.8);
+            -webkit-box-shadow:0 0 3px 0 rgba(0,0,0,0.8);
+        }
+        .intro{
+            position: relative;
+            width:100%;
+            height:100%;
+            font-family: 'Kalam', cursive;
+            padding:20px;
+            border-radius:10px;
+            top:32%;
+            left:10%;
+            color:white;
+            cursor:pointer;
+        }
+        .name{
+            color:rgb(8, 8, 8);
+            font-size:2.4em;
+            line-height:1.5em;
+        }
+        .skill{
+            color:rgb(201, 49, 49);
+            font-size:1.9em;
+        }
+        .air-desk-small{
+            position: absolute;
+            width:80%;
+            z-index:  2;white
+            height:auto;
+            background-color:rgba(0,0,0,0);
+            top:71vw;
+        }      
+        .air-desk-big{
+            display:none;
+        }
+        .item-row{
+            position: relative;
+        }     
+        .icon{
+         display:none;
+        } 
+        .displaypic{
+          width:75%;
+          height:auto;
+          border-radius:50%;
+          border: 3px  solid rgba(251,251,251,1);
+          box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.1);
+        }
+        .tentricals1{
+            display:none;
+        }
+        .tentricals2{
+            display:none;
+            
+        }
+        .tentricals3{
+            display:none;
+        }
+
+        .intro-lines{
+            position: relative;
+            word-wrap: break-word;
+            font-family: 'PT Sans', sans-serif;
+            width: 100%;
+            margin: auto;
+            font-size:0.8em;
+            margin-top:20%;
+            margin-left:1%;
+            height:auto;
+            color:rgba(251,251,251,0.9);
+            padding:15px;
+            border-radius:4px;
+        }
+        .extra-social{
+            position: fixed;
+            right:0px;
+            padding-right:7px;
+            padding-left:5px;
+            padding-top:4px;
+            padding-bottom: 4px;
+            opacity:0.8;
+            bottom:15%;
+            background-color:rgba(108, 167, 204,1);
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            box-shadow: -2px 1px 2px 2px rgb(0,0,0,0.1);
+            transition: all 1s;
+            z-index:2;
+        }
+        .side-icon{
+            font-size: 1.3em;
+            color:rgb(251,251,251);
+            transition: all 1s;
+            padding:2px;
+        }
+        .skill-set-desk{
+            display:none;
+        }
+        .skill-set-tab{
+            position: relative;
+            font-family: 'PT Sans', sans-serif;
+            color:white;
+            width:100%;
+            height:100%;
+            top:5%;
+            padding: 10px;
+            border-radius:10px;
+            font-size:0.9em;
+            left:7%;
+        }
+        .set{
+            display: block;
+            padding:10px;
         }
         .side-element{
             display:block;
