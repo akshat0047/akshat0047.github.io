@@ -1,0 +1,385 @@
+body{
+  position: relative;
+  width: 100%;
+  height:100%;
+  overflow-x: hidden;
+}
+
+a{
+  color:black;
+  text-decoration: none !important;
+}
+
+/*------HOME CSS------*/
+
+.navbar-brand, .nav-link{
+  color:white !important;
+  outline: none !important;
+}
+
+.nav-link{
+  outline: none !important;
+}
+
+.head{
+position: relative;
+width: 100%;
+background-image: url("images/dotted.png"), url("images/11.jpg");
+background-size: cover;
+box-shadow:inset 0 0 0 2000px rgba(0,0,0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  .head-index{
+    height:75vh;
+    background-attachment: fixed;
+    background-position-x: 50%;
+   }
+   .head-login{
+    height: 95vh;
+   }
+
+   .navbar-nav{
+     text-align: center;
+   }
+   
+   .head-signup{
+    height: 110vh;
+   }
+   .navbar{
+     background-color:black !important;
+     z-index:2;
+   }
+   .nav-link:hover{
+    background-color: rgb(99, 98, 98);;
+   }
+   .toggler-icon{
+     color:white;
+   }
+   
+.garage-col{
+  position: relative;
+  padding-bottom:10%;
+}
+.real-typed{
+  position: absolute;
+  font-size: 7vh;
+  color:white;
+  text-align: center;
+  top: 40%;
+  left:0px;
+  right:0px;
+  margin:auto;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .head-index{
+    height:65vh;
+    background-attachment: fixed;
+   }
+   .head-login{
+    height: 80vh;
+   }
+   
+   .head-signup{
+    height: 90vh;
+   }
+   .real-typed{
+    position: absolute;
+    font-size: 5vh;
+    top: 38%;
+    left: 8%;
+    color:white;
+   }
+}
+
+.card-thumb{
+  position: relative;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+  cursor: default;
+  transition-duration: 200ms;
+}
+
+.card-thumb:hover, card-thumb:focus{
+  background-color: rgb(231, 231, 224);
+}
+
+.garage{
+  position: relative;
+  padding:4%;
+  background: rgb(247, 245, 245);
+  background-attachment: fixed;
+  box-shadow:inset 0 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.garage-heading{
+  position: relative;
+  text-align:center;
+  text-decoration: underline;
+  color:rgb(32, 32, 32);
+}
+
+.garage-row{
+  position: relative;
+  margin-top:4%;
+  margin-bottom: 2%;
+}
+
+.card-text{
+  position: relative;
+  text-align: center;
+}
+
+
+/*------Login Form-------*/
+
+.form-control {
+  box-shadow: none;
+  border-color: #ddd;
+}
+.form-control:focus {
+  border-color: #4aba70; 
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 769px) {
+  .login-form {top:10%;}
+}
+
+.login-form {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height:40%;
+  padding: 20px 0;
+}
+.login-form form {
+  color: white;
+  border-radius: 1px;
+  margin-bottom: 15px;
+  background:rgba(0,0,0,0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.login-form h4 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+  .login-form .form-group {
+      margin-bottom: 20px;
+  }
+.login-form .form-control, .login-form .btn {
+  min-height: 40px;
+  border-radius: 2px; 
+  transition: all 0.5s;
+}
+.login-form .close {
+      position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.login-form .btn {
+  background: #4aba70;
+  border: none;
+  line-height: normal;
+}
+.login-form .btn:hover, .login-form .btn:focus {
+  background: #42ae68;
+}
+.login-form .checkbox-inline {
+  float: left;
+}
+.login-form input[type="checkbox"] {
+   margin-top: 2px;
+}
+.login-form .forgot-link {
+   float: right;
+}
+.login-form .small {
+   font-size: 13px;
+}
+.login-form a {
+   color: #4aba70;
+}
+
+/*-----Sign-Up Form-----*/
+
+.form-control {
+  box-shadow: none;
+  border-color: #ddd;
+}
+.form-control:focus {
+  border-color: #4aba70; 
+}
+
+@media only screen and (max-width: 768px) {
+  .signup-form {}
+}
+
+@media only screen and (min-width: 769px) {
+  .signup-form {top:8%;}
+}
+
+.signup-form {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height:40%;
+  padding: 20px 0;
+}
+.signup-form form {
+  color: white;
+  border-radius: 1px;
+  margin-bottom: 15px;
+  background:rgba(0,0,0,0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.signup-form h4 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+  .signup-form .form-group {
+      margin-bottom: 20px;
+  }
+.signup-form .form-control, .signup-form .btn {
+  min-height: 40px;
+  border-radius: 2px; 
+  transition: all 0.5s;
+}
+.signup-form .close {
+      position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.signup-form .btn {
+  background: #4aba70;
+  border: none;
+  line-height: normal;
+}
+.signup-form .btn:hover, .login-form .btn:focus {
+  background: #42ae68;
+}
+.signup-form .checkbox-inline {
+  float: left;
+}
+.signup-form input[type="checkbox"] {
+   margin-top: 2px;
+}
+.signup-form .forgot-link {
+   float: right;
+}
+.signup-form .small {
+   font-size: 13px;
+}
+.signup-form a {
+   color: #4aba70;
+}
+
+
+/*------Footer CSS------*/
+
+.footer-bs {
+	background-color: #1b1c1d;
+	padding: 1% 1%;
+  color: rgba(255,255,255,1.00);
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .foot-inner{
+    position: relative;
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+
+}
+
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {color:white!important; font-size:1.2em; padding:3px }
+.social-stack li{position: relative; display:inline-block; text-align: center;}
+.footer-bs .footer-brand p { font-size:0.75em; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none;  }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none;}
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.footer-bs .footer-social a { text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+.list-links a{
+  color:white !important;
+}
+.list-links li{
+  position: relative;
+  display: inline;
+  color:white !important;
+  font-size:0.9em;
+}
+
+.subs-form{
+  left:0px;
+  right:0px;
+  margin:auto;
+  display: block;
+  text-align: center;
+}
+.email-subs{
+  position: relative;
+  width:70%;
+  left:15%;
+}
+
+.btn-subs{
+  position: relative;
+  width: 50% !important;
+  height: 60% !important;
+  top:15px;
+}
+
+.footer-col{
+position: relative;
+padding-top:2% !important;
+}
+
+.tnc{
+  position: relative;
+  display: inline;
+  font-size: 0.7em;
+  color: rgba(255,255,255,1.0)!important;
+}
+
+.credits{
+  position: relative;
+  margin-top:0.5%;
+}
