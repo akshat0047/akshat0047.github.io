@@ -18,9 +18,6 @@ body {
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
 
-aside{
-  overflow-y:hidden !important;
-}
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
@@ -82,12 +79,17 @@ figure {
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
   z-index: 1001;
+  overflow-y:scroll;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+  @media screen and (min-width: 1024px) {
+    #colorlib-aside {
+      overflow-y:hidden;
+    }
+  }
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
@@ -125,9 +127,11 @@ figure {
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
-    width: 100%; }
+    width: 100%;
+    }
     #colorlib-aside #colorlib-main-menu .collapse {
-      display: block !important; }
+      display: block !important;
+       }
     #colorlib-aside #colorlib-main-menu ul {
       text-align: center;
       margin: 0;
@@ -1464,3 +1468,14 @@ body.offcanvas {
     border-bottom: 2px solid #2fa499; }
   .certificates.color-6 {
     border-bottom: 2px solid #4054b2; }
+
+  .sun-moon{
+    color:black;
+  }
+  @media screen and (max-width: 768px) {
+    .sun-moon{
+     padding: 5%;
+     background-color: rgba(251,251,251,0.7) !important;
+     border-radius: 2%;
+    }
+  }
