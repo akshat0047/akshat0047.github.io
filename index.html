@@ -1,247 +1,943 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-    <title>Akshat Pande</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet"> 
-    <link rel="stylesheet" href="index.css"> 
-</head>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Akshat Pande</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-<body>
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <div id="super-box">
-     
-         <div class="upper-section">
-                    <svg class="tentricals1" height="500" width="1000">
-                            <line x1="0" y1="10" x2="60" y2="40" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                            <line x1="60" y1="40" x2="30" y2="88" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                            <line x1="60" y1="40" x2="105" y2="0" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                            <line x1="105" y1="0" x2="170" y2="30" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                            <line x1="170" y1="30" x2="350" y2="-100" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                            <line x1="170" y1="30" x2="190" y2="75" style="stroke:rgb(251,251,251);stroke-width:1"/>     
-                        </svg>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-                        <svg class="tentricals2" height="200" width="250">
-                                <line x1="0" y1="10" x2="60" y2="40" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="60" y1="40" x2="30" y2="88" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="60" y1="40" x2="105" y2="0" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="105" y1="0" x2="170" y2="30" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="170" y1="30" x2="350" y2="-100" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="170" y1="30" x2="190" y2="75" style="stroke:rgb(251,251,251);stroke-width:1"/>     
-                            </svg>
-      
-                        <svg class="tentricals3" height="250" width="450">
-                                <line x1="250" y1="0" x2="310" y2="40" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="310" y1="40" x2="370" y2="0" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="310" y1="40" x2="350" y2="85" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="350" y1="85" x2="290" y2="135" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="290" y1="135" x2="230" y2="135" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="230" y1="135" x2="190" y2="95" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="230" y1="135" x2="190" y2="175" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="290" y1="135" x2="330" y2="175" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="330" y1="175" x2="400" y2="175" style="stroke:rgb(251,251,251);stroke-width:1"/>
-                                <line x1="330" y1="175" x2="335" y2="240" style="stroke:rgb(251,251,251);stroke-width:1"/>                        
-                      </svg>
-                <div class="intro"><span class="name">AKSHAT PANDE</span><br/>
-                  <span class="skill">//Developer</span>
-                 
-                </div>
-            </div>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- Fontawesome Icons  -->
+	<script src="https://use.fontawesome.com/6fcf6d1dff.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-            <div class="float air-desk-big">
-                <div class="row align-items-center item-row">
-                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 text-center">
-                            <a href="https://www.facebook.com/akshat.pande.547">
-                                <i class="fab fa-facebook-f fa-2x icon fb"></i></a>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-3 col-xl-2 text-center">
-                            <a href="https://www.twitter.com/PAkshat21">
-                                <i class="fab fa-twitter fa-2x icon twitter"></i></a>
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
-                              <img src="./assets/dp.jpg" class="displaypic"/>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 text-center">
-                            <a href="https://www.github.com/akshat0047">
-                                <i class="fab fa-github-alt fa-2x icon github"></i></a>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 text-center">
-                            <a href="mailto:pande.akshat21@gmail.com">
-                                <i class="fas fa-envelope fa-2x icon envelope"></i></a>
-                    </div>
-                </div>
-            </div>
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Akshat Pande</a></h1>
+				<span class="position"><a href="https://www.w3schools.com/whatis/whatis_fullstack.asp">Full-Stack</a>/<a href="https://aws.amazon.com/devops/what-is-devops/">DevOps</a> in India</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="services">Services</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<!--<li><a href="#" data-nav-section="work">Work</a></li>-->
+						<li><a href="#" data-nav-section="blog">Blog</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
 
-            <div class="float air-desk-small">
-                <div class="row align-items-center item-row">
-                
-                    <div class="offset-sm-5 offset-md-5 offset-lg-5 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
-                              <img src="./assets/dp.jpg" class="displaypic"/>
-                    </div>
-                   
-                </div>
-            </div>
+			<div class="colorlib-footer">
+				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span></small></p>
+		</div>
+		</aside>
 
-             <!--icons on sidebar-->
-             <div class="extra-social text-center">
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Hi! <br>I'm Akshat</h1>
+												<p><a href="https://drive.google.com/file/d/1CIkbZLyARPqD2XQiRG8t2Smp-ekK09Yn/view?usp=sharing" class="btn btn-primary btn-learn">Download Resume <i class="fa fa-download"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
 
-                    <span class="side-element s1 hd text-center">
-                        <a href="https://www.facebook.com/akshat.pande.547">
-                        <i class="fab fa-facebook-f side-icon"></i></a></span>
-
-                    <span class="side-element s2 hd text-center">
-                         <a href="https://www.twitter.com/PAkshat21">
-                         <i class="fab fa-twitter side-icon"></i></a></span>
-
-                    <span class="side-element s3 hd text-center">
-                         <a href="https://www.github.com/akshat0047">
-                         <i class="fab fa-github-alt side-icon"></i></a></span>
-
-                    <span class="side-element s4 hd text-center">
-                        <a href="mailto:pande.akshat21@gmail.com">
-                         <i class="fas fa-envelope side-icon"></i></a></span>
-
-                    <span class="side-element s5 text-center">
-                        <a href="https://www.youtube.com/channel/UCxpgBh4MzgjZ7bU6XnlYCNQ" >
-                        <i class="fab fa-medium-m side-icon"></i></a></span>
-                
-    
-                    <span class="side-element s6 text-center">
-                        <a href="https://instagram.com/akshat0047" >
-                        <i class="fab fa-instagram side-icon"></i></a></span>
-    
-                    <span class="side-element s7 text-center">
-                        <a href="https://www.youtube.com/channel/UCxpgBh4MzgjZ7bU6XnlYCNQ" >
-                        <i class="fab fa-youtube side-icon" ></i></a></span>
-                    </div>
-
-    <div class="row align-items-center row-convert-cell">
-        <div class="col-sm-6 col-md-6 col-lg-6 col-lg-6 ">
-            <p class="intro-lines">I am a student of B.Tech(CSE) 6th Semester of <strong>Amity University Uttar Pradesh(Lucknow Campus).</strong><br/><br/>
-                                   When it comes to skills, web development is something I love to explore and learn, I am a full-stack web Developer. I also know data scraping, terminal basics, video editing and photo editing. I'm always in search
-                                    of some great projects and new skills to learn.<br/><br/>
-                                    Apart from coding when it comes to my hobbies I am a dancer, gymnast and a growing youtuber. I've worked on short films, videos, choreographies and event management. I am a part of coding community ALiAS, Amity Noida and I'm upto establishing the chapter of same in my campus.<br/><br/>
-                                    <strong>You can find me almost everywhere with the username akshat0047</strong></p>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-6 col-lg-6 text-center skill-set-column">
-            
-          <div class="skill-set-desk">
-            <div class="row justify-content-start">
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                  <p>HTML</p>
-                </div>
-
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                   <p>CSS</p>
-                </div>
-        
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                  <p>JavaScript</p>
-                </div>
-
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <p>Node.js</p>
-                  </div>
-               
-            </div>
-            <div class="row justify-content-center">
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                      <p>jQuery</p>
-                    </div>
-    
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                       <p>MySql</p>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                            <p>React</p>
-                         </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                            <p>Docker</p>
-                         </div>
-                </div>
-            <div class="row justify-content-start">
-                        <div class="col-sm-2 col-md-2 col-lg-2">
-                          <p>Python</p>
-                        </div>
-        
-                        <div class="col-sm-2 col-md-2 col-lg-2">
-                           <p>Scrapy</p>
-                        </div>
-                        
-                        <div class="col-sm-2 col-md-2 col-lg-2">
-                                <p>REST</p>
-                        </div>
-
-                        <div class="col-sm-2 col-md-2 col-lg-2">
-                            <p>WordPress</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                        <div class="col-sm-2 col-md-2 col-lg-2 align-self-end">
-                          <p>Flask</p>
-                        </div>
-        
-                        <div class="col-sm-2 col-md-2 col-lg-2 align-self-start">
-                           <p>C++</p>
-                        </div>
-                        <div class="col-sm-2 col-md-2 col-lg-2">
-                                <p>Django</p>
-                        </div>
-                        <div class="col-sm-2 col-md-2 col-lg-2">
-                                <p>Materialize</p>
-                        </div>
-                </div>
-                
-                <div class="row justify-content-start">
-                    <div class="col-sm-2 col-md-2 col-lg-2 ">
-                        <p>Git</p>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2 ">
-                        <p>Linux</p>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                            <p>Photoshop</p>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                            <p>PremierPro</p>
-                    </div>
-                </div>
-             
-                <br/>
-                <br/>
-            </div>
-            
-            <div class="skill-set-tab">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6">
-                        <div class="set"><span>HTML</span><br/><span class="badge badge-success">Comfortable</span></div>
-                        <div class="set"><span>CSS</span><br/><span class="badge badge-success">Comfortable</span></div>
-                        <div class="set"><span>JAVASCRIPT</span><br/><span class="badge badge-success">Comfortable</span></div>
-                        <div class="set"><span>ADOBE PREMIER PRO</span><br/><span class="badge badge-success">Comfortable</span></div>
-                        <div class="set"><span>PYTHON</span><br/><span class="badge badge-primary">Intermediate</span></div>
-                        <div class="set"><span>DJANGO</span><br/><span class="badge badge-secondary">Learning</span></div>
-                        <div class="set"><span>C++</span><br/><span class="badge badge-primary">Intermediate</span></div>
-                    </div>
-                    <div class="col-sm-6 col-md-6">
-                        <div class="set"><span>JQUERY</span><br/><span class="badge badge-primary">Intermediate</span></div>
-                        <div class="set"><span>SQL</span><br/><span class="badge badge-success">Comfortable</span></div>
-                        <div class="set"><span>PHP</span><br/><span class="badge badge-primary">Intermediate</span></div>
-                        <div class="set"><span>FLASK</span><br/><span class="badge badge-secondary">Learning</span></div>
-                        <div class="set"><span>SCRAPY</span><br/><span class="badge badge-primary">Intermediate</span></div>
-                        <div class="set"><span>C</span><br/><span class="badge badge-success">Comfortable</span></div>
-                        <div class="set"><span>ADOBE AUDITIONS</span><br/><span class="badge badge-secondary">Learning</span></div>
-                    </div>
-                </div>
-            </div>
-         </div>
-         
-     </div>
-             
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Us</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Akshat Pande</strong> A freelance Developer and final year student of B.Tech(CSE) with an experience of devloping various software solutions with efficient coding techniques and practices.
+											Apart from the core-development, I love to work on projects related to graphic design, image/video edits and entertainment based content.
+										</p>
+										<p></p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><i class="fa fa-desktop"></i></span>
+										<h3>Web Apps</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><i class="fa fa-terminal"></i></span>
+										<h3>Scripts</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><i class="fa fa-paint-brush"></i></span>
+										<h3>Graphic Design</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="fa fa-camera-retro"></i></span>
+										<h3>Video Edit</h3>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2>I am actively looking for Internships, <br>Projects and Job Opportunities</h2>
+										<a href="https://www.linkedin.com/in/akshat-p-7b05b0121/" class="btn-hire">Hire me</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 
+			
+			<section class="colorlib-services" data-section="services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">What I do?</span>
+							<h2 class="colorlib-heading">Here are some of my expertise</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="fa fa-globe"></i>
+								</span>
+								<div class="desc">
+									<h3>Websites</h3>
+									<p>Platform you need to showcase your writings be it individual or team based</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="fa fa-code"></i>
+								</span>
+								<div class="desc">
+									<h3>API Integration</h3>
+									<p>Implement versatile services in your product without technical expertise</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="fa fa-shopping-cart"></i>
+								</span>
+								<div class="desc">
+									<h3>E-Commerce</h3>
+									<p>Starting online business is just a step away using CMS tools and their plugins</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="fa fa-magnet"></i>
+								</span>
+								<div class="desc">
+									<h3>Scrapers</h3>
+									<p>Let us serve the data you need to make analysis and draw conclusions</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="fa fa-comments"></i>
+								</span>
+								<div class="desc">
+									<h3>Chatbots</h3>
+									<p>Improve chat environments and provide automated replies to consumers</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-6">
+								<span class="icon">
+									<i class="fa fa-wrench"></i>
+								</span>
+								<div class="desc">
+									<h3>Maintenance</h3>
+									<p>Improving design, adding features, changing content and much more</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="fa fa-cogs"></i>
+								</span>
+								<div class="desc">
+									<h3>Automation</h3>
+									<p>Get over the headache of manually executing a development cycle</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="fa fa-file"></i>
+								</span>
+								<div class="desc">
+									<h3>Scripts</h3>
+									<p>Do you need a piece of code to carry out some system or product tasks</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="fa fa-tasks"></i>
+								</span>
+								<div class="desc">
+									<h3>Projects</h3>
+									<p>Reach us for suggestions and development of your academic projects</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+					</div>
+					<div class="row">
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="350" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Glasses of Banana Shake</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="45000" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Lines of code</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="40" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Projects Contributed</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="4" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Internships</span>
+						</div>
+					</div>
+				</div>
+			</div>
 
-</body>
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Specialty</span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>I believe that skills and experiments in your development pattern when combined are more powerful than any academic/recommendation document</p>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>HTML/CSS/Bootstrap</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>85%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Javascript/jQuery</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								    <span>85%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Node.js</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Django/Flask</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>PHP</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>WordPress</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>MySql/Postgres/SQLite</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Scrapy/BS/Selenium</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Docker/Kubernetes</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Git/Travis/AWS/Heroku/GitLab</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Grafana</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Data Science</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="40"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:40%">
+								    <span>40%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>React.js</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>C++</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="65"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:65%">
+								    <span>65%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Adobe Premier Pro</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Adobe Photoshop</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" >Bachelor Degree of Computer Science
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <p>Pursuing B.tech from<strong>Amity University Uttar Pradesh</strong>, with a decent cgpa score and securing 25% scholarship consicutively for 3 years.</p>
+													<ul>
+														<li>CGPA: 8.53</li>
+														<li>Batch: 2017-2021</li>
+													</ul>
+									        </div>
+									    </div>
+									</div>
+
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFive">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education (12th)
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+									        <div class="panel-body">
+									            <p>Accomplished my 10+2 in PCM from <strong>Jai Academy Public School</strong>, with a score of 87% in PCM</p>	
+									        </div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Achievements</span>
+							<h2 class="colorlib-heading animate-box">Certificates</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="row">
+								<div class="col-sm-4 col-md-4 col-lg-4 animate-box" data-animate-effect="fadeInLeft">
+									<div class="certificates color-1">
+										<a href="https://drive.google.com/drive/folders/1ZPHnU1qRUreSOIhib_R1CjHV9i13pvzt?usp=sharing"><span>Internship</span></a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4 animate-box" data-animate-effect="fadeInRight">
+									<div class="certificates color-2">
+										<a href="https://drive.google.com/drive/folders/1rZh4oAShfHfpGy6DI6DMFqI_GZva67-V?usp=sharing"><span>Online Courses</span></a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4 animate-box" data-animate-effect="fadeInTop">
+									<div class="certificates color-3">
+										<a href="https://drive.google.com/drive/folders/1RSr_XZM4ysdOKHVbMRKSO601TdVaFOhj?usp=sharing"><span>Workshops</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-4 col-md-4 col-lg-4 animate-box" data-animate-effect="fadeInBottom">
+									<div class="certificates color-4">
+										<a href="https://drive.google.com/drive/folders/1uLw9QLf0FshqV4s2hE2xOKphz1UmPKIf?usp=sharing"><span>Management</span></a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4 animate-box" data-animate-effect="fadeInBottom">
+									<div class="certificates color-5">
+										<a href="https://drive.google.com/drive/folders/1xRXZxdSDV5_VbMtag7X5Is-UEEcn4V4F?usp=sharing"><span>Achievements</span></a></a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4 animate-box" data-animate-effect="fadeInBottom">
+									<div class="certificates color-6">
+										<a href="https://drive.google.com/drive/folders/1me-XUCZ0zyQ0loKbPT1npKfT69JNFJoD?usp=sharing"><span>Co-curricular</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-4">
+					                  <i class="fa fa-star-of-life"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Internship at FOSSEE, IIT-Bombay</a> <span>April 2020 - June 2020</span></h2>
+					                  <p>
+										Learned and Implemented DevOps Tools for visualization, scaling and automation. Worked on various approaches for building pipelines and setup an efficient workflow using tools, utilities and environments like Docker, Docker Swarm, Kubernetes, Ansible, Terraform, AWStats, Grafana, Staytus, CentOS, Travis CI, GitLab, EKS, Heroku, DigitalOcean.
+										<br/>
+										Also, worked on Development of code snippets to add functionality to few software under the organization which included usage of the languages like PHP, JavaScript and Python.</p>
+					               </div>
+					            </div>
+							</article>
+
+							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-5">
+					                  <i class="fa fa-star-of-life"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Internship at Letstream Ventures Pvt. Ltd.</a> <span>July 2019 - Sept 2019</span></h2>
+					                  <p>Worked as a core Full-Stack developer and made several static sites from templates and websites using WordPress, integrated services on web, built a web-app on Django. </p>
+					               </div>
+					            </div>
+							 </article>
+							 
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="fa fa-star-of-life"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Internship at Entent.io</a> <span>May 2019 - Aug 2019</span></h2>
+					                  <p>Worked on Backend technologies like Flask and Node.js, studied pixel implementation and extracting site metrics. Also, built spiders in Python's Scrapy and control them using REST Api.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="fa fa-star-of-life"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Internship at Letstream Ventures Pvt. Ltd.</a> <span>Feb 2019 - Mar 2019</span></h2>
+					                  <p>I worked as a core frontend developer from integrating web services to building complete websites from template, completing tasks involving new challenges and learning various technologies which expanded my skillset. It really helped me grow as a developer. </p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="fa fa-star-of-life"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Community Head at ALiAS</a> <span>2 Years</span></h2>
+					                  <p>Started an open source community in my college with the help of Amity Noida and conducted several meetups and session to make students aware about Open Source culture and encouraged them to work on projects and contribute to open source.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="fa fa-star-of-life"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Content Creator</a> <span>2 Year</span></h2>
+					                  <p>Worked on professional edits involving pctures, graphic content and specifically videos on standard softwares like premier pro and photoshop with 20+ normal video edits and 5 creative video edits.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+<!--
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Work</span>
+							<h2 class="colorlib-heading animate-box">Recent Work</h2>
+						</div>
+					</div>
+					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-12">
+							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-1.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 01</a></h3>
+										<span>Website</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-2.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 02</a></h3>
+										<span>Animation</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url(images/img-3.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 03</a></h3>
+										<span>Illustration</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url(images/img-4.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 04</a></h3>
+										<span>Application</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-5.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 05</a></h3>
+										<span>Graphic, Logo</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-6.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Work 06</a></h3>
+										<span>Web Design</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</section>-->
+
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Read</span>
+							<h2 class="colorlib-heading">Recent Blog</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="https://medium.com/@pande.akshat21/fossasia-beginning-with-codeheat-2019-db98c7e9961c" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="FOSSASIA Blog"></a>
+								<div class="desc">
+									<span><small>November 16, 2019 </small> | <small> Open Source </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">FOSSASIA's CodeHeat</a></h3>
+									<p>An introduction to how I started with CodeHeat, an open-source contest organized by FOSSASIA.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="https://medium.com/@pande.akshat21/online-hackathon-an-experiment-e0d567a4ef9e" class="blog-img"><img src="images/blog-2.png" class="img-responsive" alt="Hackathon Blog"></a>
+								<div class="desc">
+									<span><small>July 04, 2019 </small> | <small> hackathon </small> | <small> <i class="icon-bubble3"></i> 7</small></span>
+									<h3><a href="blog.html">Online Hackathon</a></h3>
+									<p>Participating in hackathons and developing stuff in the limited time is interesting and challenging.
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="https://medium.com/@pande.akshat21/community-algorithm-solved-d5ec05fba4f" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="Community Blog"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Community Initialized</a></h3>
+									<p>When it's difficult to find an opprtunity, the solution lies in creating one just like ALiAS</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div>-->
+				</div>
+			</section>
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="fa fa-envelope"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="mailto:pande.akshat21@gmail.com">pande.akshat21@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="fa fa-location-arrow"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>1481/2A, Civil Lines, Officers Colony, Jhansi</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="fa fa-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Reach me at <a href="tel:+917355791960">+91-7355791960</a></p>
+								</div>
+							</div>
+						</div>
+						<!--
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form action="">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
+									</form>
+								</div>
+								
+							</div>
+						</div>-->
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
