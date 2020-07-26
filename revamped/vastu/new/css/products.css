@@ -1,0 +1,91 @@
+body{
+    position: relative;
+    overflow-x:hidden;
+    width: 100%;
+    height:auto;
+}
+h4{
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+p{
+    position: relative;
+    text-align: justify;
+}
+.icon{
+    position: relative;
+    color: #fff;
+    padding-top: 4px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+section{
+    position: relative;
+    width: 100% !important;
+    margin-bottom: 6%;
+}
+.navbar-toggler{
+    position: absolute;
+    right:5%;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    position: relative;
+    left: 6px;
+    color: white;
+}
+nav{
+    position: relative;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    z-index: 2;
+    background: rgb(205,64,232);
+    background: linear-gradient(90deg, rgba(205,64,232,1) 25%, rgba(209,27,218,1) 52%, rgba(197,0,255,1) 100%); 
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.products{
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background: white;
+}
+
+@media only screen and (max-width: 600px){
+    .mix-btn{
+        width: 40%;
+    }
+}
+@media only screen and (min-width: 601px){
+    .mix-btn{
+        width: 10%;
+    }
+}
+
+.mix-btn{
+    position: relative;
+    margin:3%;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+    padding: 5%;
+    word-wrap: none;
+    transition: all 0.2s;
+}
+
+.select{
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+    background-color: #be2edd;
+    color:white;
+}

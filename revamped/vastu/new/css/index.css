@@ -171,11 +171,6 @@ header{
     transition: all 0.5s;
 }
 
-.product-chip:hover{
-    position: relative;
-    box-shadow: 0 0 5px 5px rgba(0,0,0, 0.1);
-}
-
 /* Carousel */
 
 
