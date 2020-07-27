@@ -53,6 +53,16 @@ header{
     margin: auto;
     z-index: 2;
 }
+
+#typestuff{
+    position: absolute;
+    margin: auto;
+    color: white;
+    display: block;
+    left: 25%;
+    top: 45%;
+}
+
 .intro-pc{
     position: relative;
     width: 100%;
@@ -163,9 +173,13 @@ header{
     margin-top: 4%;
 }
 
+.card{
+    border: none !important;
+}
+
 .product-chip{
     position: relative;
-    box-shadow: 0 0 1px 1px rgba(0,0,0, 0.1);
+    box-shadow: 0 0 3px 3px rgba(0,0,0, 0.1);
     margin-top: 3%;
     margin-bottom: 3%;
     transition: all 0.5s;

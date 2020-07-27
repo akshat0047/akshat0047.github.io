@@ -42,7 +42,19 @@
             </div>
           </nav>
     </header>
-    <div class="intro-pc" ></div>
+    <div class="intro-pc" >
+      <div id="typestuff" class="text-center">
+        <div id="typed-strings">
+          <p>Horoscope Analysis</p>
+          <p>Numerology Predictions</p>
+          <p>Vastu Suggestions</p>
+          <p>Tarot Card Reading</p>
+          <p>Astrology Talks</p>
+        </div>
+        <h1>Kalpvriksh Welcomes you to experience</h4>
+        <h3 id="typed"></h4>
+      </div>
+    </div>
 
     <section id="about">
         <div class="container text-center">
@@ -107,7 +119,7 @@
                           </span>
                       <div class="card-thumb card">
                         <div class="card-body">
-                          <h6 class="card-title"><strong>Face Reading</strong></h6>
+                          <h6 class="card-title"><strong>Numerology</strong></h6>
                           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                       </div>
@@ -305,6 +317,16 @@
   <div class="copyright text-center">
     Copyright &copy; 2020 <span>All Rights Reserved</span>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script>
+    var typed = new Typed('#typed', {
+      stringsElement: '#typed-strings',
+      loop: true,
+      loopCount: Infinity,
+      showCursor: false
+    });
+  </script>
 
   <script>
     VANTA.CLOUDS({

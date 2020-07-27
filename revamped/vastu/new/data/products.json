@@ -1,17 +1,24 @@
-{
-    "parad-gutika": [
+{ 
+    "testimonials":[{
+        "name":"akshat",
+        "desg":"student",
+        "org":"amity",
+        "text":"xyz",
+        "image":""
+    }],
+    "products":[ {"parad-gutika": [
         {   
             "name":"Parad Gutika Special",
-            "img":"",
-            "desc":["<div>This is same gutika as above , only difference is binding material which is silver in this case.",
-                    "Due to silver its health benefits increases manifold and this gutika can be immersed in hot milk and drinking of milk will remove all diseases of body. This gutika never gets black and highly powerful health giving. Benefits :",
-                    "<ul><li>When immersed in hot milk and that milk is drink , it provide removal of diseases and a healthy body.</li><li>A powerful attraction power one�s get after wearing.</li>",
-                    "<li>Special protection from black magic and evil forces.</li><li>It is highly purified form and provides all round positive energy.</li>"],
+            "img":"paradgutikaspecial.jpg",
+            "desc":["This is same gutika as above , only difference is binding material which is silver in this case.",
+                    "1. Due to silver its health benefits increases manifold and this gutika can be immersed in hot milk and drinking of milk will remove all diseases of body. This gutika never gets black and highly powerful health giving. Benefits :",
+                    "2. When immersed in hot milk and that milk is drink , it provide removal of diseases and a healthy body.A powerful attraction power one's get after wearing.",
+                    "3. Special protection from black magic and evil forces. It is highly purified form and provides all round positive energy."],
             "price":"1500"
         },
         {   
             "name":"Navratan Gutika",
-            "img":"",
+            "img":"navratangutika.jpg",
             "desc":["This gutika is made with the satvas of 9 planets stone and finally added gold to make this gutika immense powerful. The wearer of this gutika is free from ill effects of nine planets and highly powerful. It provides divinity and extra ordinary perception to the wearer. He can alarmed of any mishappening in future and also develop extra ordinary powers. Benefits :",
             "1. Neutralise all planets ill effects.",
             "2. It�s a powerful substitute of all planet stones.",
@@ -22,7 +29,7 @@
         },
         {   
             "name":"Herbal Gutika",
-            "img":"",
+            "img":"herbalgutika.jpg",
             "desc":["This gutika is made after 10 sanskaar and binded only with herbs . This does not contains any minerals or stones to bind. Due to this , it acquires special powers of herbs which manifolds the other one�s. This provides highest level of purity and activates body centers. Benefits :",
             "1. Highly pure and provides special health benefits.",
             "2. Placing in mouth removes all uncurable diseases.",
@@ -32,7 +39,7 @@
         },
         {   
             "name":"Suryakant Mani",
-            "img":"",
+            "img":"suryakantmani.jpg",
             "desc":["This is parad pill made with satva of sun stone(gem stone of sun) . This Gutika is highly powerful and possess the power of sun. This removes all body disorders related to stomach, heart, blood etc. Benefits :",
             "1. This increase the internal fire of one's body.",
             "2. It removes all stomach related disorders.",
@@ -44,7 +51,7 @@
         },
         {   
             "name":"Chandrakant Mani",
-            "img":"",
+            "img":"chandrakantmani.jpg",
             "desc":["This is special paradGutika made with satva of pearl . Pearl possess coolness, calmness and soothing effects. This Gutika is highly effective for controlling mind and removing mind disorders. As moon represent mind so this Gutika provides calmness and peaceful mind. Benefits :",
             "1. Wearer gets clean, calm and peaceful mind.",
             "2. Removes depression, anxiety, mental tension and neurological diseases.",
@@ -55,7 +62,7 @@
         },
         {   
             "name":"Pushpraj Mani",
-            "img":"",
+            "img":"pushprajmani.jpg",
             "desc":["This Gutika is made with satva of yellow saphhire, the Jupiter stone. As Jupiter is spiritual teacher of celestial gods so this Gutika increased spiritual knowledge of wearer. Also many hidden truths and knowledge automatically comes in the mind of wearer. This uplift one's spiritual knowledge to higher extents. Benefits :",
             "1. It provides special life force to accomplish impossible tasks.",
             "2. It provides special spiritual or materialistic knowledge to the wearer& wearer gets respect and fame in the society.",
@@ -71,13 +78,17 @@
         },
         {   
             "name":"Amethyst Gutika",
-            "img":"",
-            "desc":"",
-            "price":""
+            "img":"amethystgutika.jpg",
+            "desc":["This is made with blue saphhire, most invincible stone. This provides special sixth sense activation with focused mind. Also wearer is free from any evil attacks and unfortunate happenings. Benefits :",
+            "This Gutika had special healing power and improve one's health. This pill had highest aura reading and helps in meditation. Benefits :",
+            "1. This gutika provides special healing power to heal all diseases and one�s get free from all diseases.",
+            "2. This is highest healing power so helps in memory power and well suited for students.",
+            "3. It provides cool and calm state of mind and helps in concentration."],
+            "price":"6000"
         },
         {   
             "name":"Meditation Gutika",
-            "img":"",
+            "img":"meditationgutika.jpg",
             "desc":["This is made with special combination of stones, gems and mercury. This is to be placed over third eye or in mouth inside tongue for getting maximum benefits during meditation. This provides eternal happiness and oneness with the god. Benefits :",
             "1. It provides special spiritual experiences with meditation.",
             "2. This provides special activation of kundalini power when wear around the neck & get deep meditation and spiritual force.",
@@ -86,37 +97,37 @@
         },
         {   
             "name":"Devranjini Gutika",
-            "img":"",
+            "img":"devranjinigutika.jpg",
             "desc":["Devranjini means capturing the celestial gods and goddesses. This Gutika attracts higher celestial species whether they are dev , Angels, apsara, yaksh, jinn etc. This Gutika helps in getting help from celestial beings. The wearer possess special powers after wearing this Gutika.When any mantra is jap with wearing of this gutika or placing in mouth , siddhi will be achieved very shortly. This gutika is highly beneficial for providing success in all spiritual prayers or cult. The power can be seen from a single day after wearing this gutika and doing spiritual cult."],
             "price":"8000"
         },
         {   
             "name":"Yakshini Gutika",
-            "img":"",
+            "img":"yakshinigutika.jpg",
             "desc":["This is special locket for attracting yakshini � a celestial being . It contains special mercury infused with special herbs to attract yakshini�s. Also it is made powerful with special herbs placed inside the locket with mercury for providing special attraction to yakshinis. This locket is like a magnet who attracts yakshini from the universe. We provides special process which is to be followed with this locket for complete and successful results. This process infuses the special energy which binds and attracts the yakshini�s from the universe to the wearer."],
             "price":"2100"
         },
         {   
             "name":"Apsara Gutika",
-            "img":"",
+            "img":"apsaragutika.jpg",
             "desc":["This is highly auspicious and powerful locket for attracting beautiful celestial goddesses � Apsara�s. It contains special powerful mercury binded with special powerful stones for attracting apsara. This locket provides attraction , beauty and prosperity to the wearer. We provide special process which is to be followed with this locket for overall success in apsarasadhana."],
             "price":"8000"
         },
         {   
             "name":"64 Yogini Gutika",
-            "img":"",
+            "img":"64yoginigutika.jpg",
             "desc":"This is highest powerful locket for 64 divine yoginis who are powers of mahavidyas. Once they pleased, they provides special tantric and spiritual knowledge to the devotee. This locket contains special mercury with 64 yogini yantra and combination of these two provides wonders in one�s life. This locket can transforms one�s life from simple to supernatural. It is highly energized locket and wearer gets success in each field with gains of special spiritual knowledge. The wearer also possess special powers after wearing this locket. This locket provides future visions, powerful protection, hidden universal secrets, tantric knowledge and siddhis. Special process is to be gives with this locket to achieve sure shot results.",
             "price":"2100"
         },
         {   
             "name":"Shakti Gutika",
-            "img":"",
+            "img":"shaktigutika.jpg",
             "desc":"Shakti gutika is made after treated 8 sanskaar mercury with special herbs thus giving him special effects . After it is treated with special oils like JYOTISHAMATI , DHATURA , CHEER ETC. to make it immense powerful and give special powers if wear around neck. It increases spiritual powers like hypnotism, attraction and also give peace to mind.",
             "price":"8000"
         },
         {   
             "name":"Swarnjarit Parad Gutika",
-            "img":"",
+            "img":"swarnjaritparadgutika.jpg",
             "desc":["This gutika is made after 10 sanskaar and then solidify by using Gold as base metal thus called swarn jarit. This is very helpful in removing any diseases.",
             "1- If this gutika offered water is drink daily then all his diseases are removed.",
             "2- If this is gutika is tied in cloth and boiled in milk for 10 minutes and then that milk is drink , it eradicates all sex problems . Also it increases body powers and induce kayakalp.",
@@ -125,11 +136,11 @@
             "5- Washing eyes with abovesaid water increases eye powers."],
             "price":"8000"
         }
-],
+]},
 
-    "parad-shivling":[{   
+    {"parad-shivling":[{   
         "name":"Parad Shivling",
-        "img":"",
+        "img":"paradshivling.jpg",
         "desc":["Nothing more could be said about this shivling , as it is said that one who have parad shivling in his house and one who worship parad shivling is free from all sins and attains salvation. Such persons have all wishes fulfilled and need not take rebirth. It is said that even by touching it , the sin of killing a Brahmin can be removed.This shivling is made after 10 sanskaar and when some gold is put over it , it consumed it and digested it. There are great benefits of Parad Shivling :",
         "1- All his sins are removed and attains salvation",
         "2- All his wishes are fulfilled.",
@@ -141,7 +152,7 @@
     },
     {   
         "name":"Parad Shivling Navgrah Jarit",
-        "img":"",
+        "img":"paradshivlingnavgrahjarit.jpg",
         "desc":["This is more powered shivling which have special powers . After 10 sanskaar parad is treated with different oil for more than 100 hours and then do jaarna of nine planets bhasms, thus making it immense powerful .",
             "1- Main powerful effect is it controls nine planets , thus where ever it is place that place is free from any harmful effects of nine planets.",
             "2- If one worships it daily all his unfavoured planets are in control and give blessing .",
@@ -149,42 +160,44 @@
             "4- No tantric effect of any kind is possible with this shivling.",
             "5- That house becomes blessed by all gods and all his wishes are fulfilled."],
         "price":"210 Rs. Per gram"
-    }],
+    }]
+        },
 
-    "Parad Products": [{   
+    {"parad-products": [{   
         "name":"Parad Laxmi",
-        "img":"",
+        "img":"paradlaxmi.jpg",
         "desc":"",
         "price":""
     },
     {   
         "name":"Parad Durga",
-        "img":"",
+        "img":"paraddurga.jpg",
         "desc":"",
         "price":""
     },
     {   
         "name":"Parad Ganesh",
-        "img":"",
+        "img":"paradganesh.jpg",
         "desc":"",
         "price":""
     },
     {   
         "name":"Parad Shiv",
-        "img":"",
+        "img":"paradshiv.jpg",
         "desc":"",
         "price":""
     },
     {   
         "name":"Parad Vishnu",
-        "img":"",
+        "img":"paradvishnu.jpg",
         "desc":"",
         "price":""
-    }],
+    }]
+    },
 
-    "Navapashan":[{   
+    {"navapashan":[{   
         "name":"Navapashan Bead",
-        "img":"",
+        "img":"navapashanbead.jpg",
         "desc":["This gutika is one of the rarest item on earth. This gutika exhibits special energy when wear . This gutika has energy or electric effects, means when checked with micro voltage checking devise , it shows small micro ampere and voltage . This only shows the effectiveness and power of navpashaan gutika. As per our ancient textsGORAKSH SANHITA�, it contains nine different stones which is to be combined with mercury with special herbs to form navpashaan gutika. It contains nine precious and highly energetic stones which are :",
         "1. PINK QUARTZ PINK QUARTZ is one of the major healing stone and very powerful. This stone has high impact on our nervous system and our receptors. This stone energise and imparts power to our senses and calm our mind. This stone provides soothing effect and give peace to our innerself. It improves family and official relations and bring cooperative and stress free atmosphere.",
         "2. LAPIS LAZULI LAPIS LAZULI or LAZAWART is a special stone and has amazing healing and protective powers. This stone when combines with mercury provides special all round protection and power to the wearer. This stone also rectify the ill effects of planets. Also this has high healing property which helps in removing of diseases in our body. This stone has special ability to connect wearer to higher planes means it helps in connecting divine gods or creatures in this universe. It activates throat and third eye chakras.",
@@ -209,69 +222,71 @@
     },
     {   
         "name":"Navpashan Rosery 108 Big Size",
-        "img":"",
+        "img":"navapashanrosery108bigsize.jpg",
         "desc":"NAVAPASHANAM ROSARY is a combination of 108 beads to form most fortunate rosary in the world. This rosary is the most powerful rosary in the world with no match. Power of the rosary can be understood that even a single bead is of so importance and powerful so a rosary made of combination can do wonders in one's life. One can see the vibration, tingling and heating effects while holding and wearing it. One can feel the heating or soothing effect of rosary everytime. The person achieves all round success and fame with this rosary. This rosary can do wonders in life of everyone. It is fortunate or blessing if one received such special rosary. Because this special rosary is also enchanted and powered with special mantra and rituals so that its effects are blindfolded. It is highly fortunate rosary and should be tried to get it because only few left in this world who can make it in a pure successful way.",
         "price":"3200000"
     },
     {   
         "name":"Navpashan Rosery 108 Small Size",
-        "img":"",
+        "img":"navapashanrosery108smallsize.jpg",
         "desc":"NAVAPASHANAM ROSARY is a combination of 108 beads to form most fortunate rosary in the world. This rosary is the most powerful rosary in the world with no match. Power of the rosary can be understood that even a single bead is of so importance and powerful so a rosary made of combination can do wonders in one's life. One can see the vibration, tingling and heating effects while holding and wearing it. One can feel the heating or soothing effect of rosary everytime. The person achieves all round success and fame with this rosary. This rosary can do wonders in life of everyone. It is fortunate or blessing if one received such special rosary. Because this special rosary is also enchanted and powered with special mantra and rituals so that its effects are blindfolded. It is highly fortunate rosary and should be tried to get it because only few left in this world who can make it in a pure successful way.",
         "price":"85000"
     },
     {   
         "name":"Navpashan Rosery 108 Medium Size",
-        "img":"",
+        "img":"navapashanrosery108mediumsize.jpg",
         "desc":"NAVAPASHANAM ROSARY is a combination of 108 beads to form most fortunate rosary in the world. This rosary is the most powerful rosary in the world with no match. Power of the rosary can be understood that even a single bead is of so importance and powerful so a rosary made of combination can do wonders in one's life. One can see the vibration, tingling and heating effects while holding and wearing it. One can feel the heating or soothing effect of rosary everytime. The person achieves all round success and fame with this rosary. This rosary can do wonders in life of everyone. It is fortunate or blessing if one received such special rosary. Because this special rosary is also enchanted and powered with special mantra and rituals so that its effects are blindfolded. It is highly fortunate rosary and should be tried to get it because only few left in this world who can make it in a pure successful way.",
         "price":"2200000"
-    }],
+    }]
+    },
 
-    "Mala-Rosery":[{   
+    {"mala-rosery":[{   
         "name":"Trilok Vashikaran Mala",
-        "img":"",
+        "img":"trilokvashikaranmala.jpg",
         "desc":"It is highly powerful mala and can be said it can attract all three worlds. It is made with special mercury infused with special stones, gold and mica extract. It provides special powers and attractive force to the wearer. This comes in 2 combination of 108 beads and 54 beads. Any spiritual sadhana or cult can be successfully completed by using this mala. It is highly beneficial and powerful.",
         "price":"24000"
     },
     {   
         "name":"Laghu Indrani / Iccha Poorti Maala",
-        "img":"",
+        "img":"laghuindrani.jpg",
         "desc":"MADE FROM RUDRAKSH 1 FACE TO 9 FACE ,VERY AUSPICIOUS AND POWERFUL AND FULFILL YOUR WISH. POWER OF 9 RUDRAKSH CONTROLS 9 PLANETS BAD EFFECTS AND GIVES MONEY AND FORTUNE. ",
         "price":"21000"
     },
     {   
         "name":"Lava Mala",
-        "img":"",
+        "img":"lavamala.jpg",
         "desc":"100% ORIGINAL VOLCANIC LAVA BEADS THIS IMPROVES SIXTH SENSE AND GIVES FERTILITY . BRINGS LUCK AND FORTUNE TO THE WEARER. ALSO USED AS JAP FOR SPIRITS , DEMONS ETC ",
         "price":"1100"
     },
     {   
         "name":"Kritya Mala",
-        "img":"",
+        "img":"krityamala.jpg",
         "desc":"BLACK HAKEEK, HIGHLY POWERFUL AND OVERALL PROTECTION. SPECIALLY ENERGISED BY KRITYA MANTRAS FOR ENEMY DESTRUCTION. REMOVES TANTRA DOSH INSTANTLY ",
         "price":"2100"
     },
     {   
         "name":"10 Mhavidya Mala",
-        "img":"",
+        "img":"10mhavidyamala.jpg",
         "desc":"HIGHLY POWERFUL AND ENCHANTED WITH 10 MAHAVIDYAS MANTRA. THIS MALA IS ENERGISED THROUGH SPECIAL RITUAL A ND GIVES SIDDHI IN 10 MAHAVIDYA SADHANA.",
         "price":"6000"
     },
     {   
         "name":"Parad Mala 108",
-        "img":"",
+        "img":"paradmala108.jpg",
         "desc":"This is special parad rosary of 108 beads with 2 different sizes available. It is highly beneficial to wear parad rosary as it provides special protection, attraction power and health benefits to the wearer.",
         "price":"21000"
-    }],
+    }]
+    },
 
-    "rare-items":[{
+    {"rare-items":[{
         "name":"Fish Pearl Meen Mukta",
-        "img":"",
+        "img":"fishpearlmeenmukta.jpg",
         "desc":"HIGHLY AUSPICIOUS AND DIVINE ITEM TO PLACE IN HOUSE OR WEAR. IT IS FOND IN RARE FISH AND ACTIVATES 6 SENSE AND SHOW FUTURE DISTURBANCES. BEST FOR REGULAR FLOW OF INCOME AND HIGH LEVEL OF PROTECTION . ALSO GIVES FAST RELIEF FROM NAZAR DOSH AND ENSURES REGULAR FLOW OF POSITIVE ENERGY",
         "price":"1100"
     },
     {
         "name":"Divine Spiritual Perfume",
-        "img":"",
+        "img":"divinespiritualperfume.jpg",
         "desc":["Fragrance has special significance in worship and all the devils and divine powers are attracted by the fragrance. Many other things like Majmoon, Firdaus etc. attract the gods. In fact, if the perfume can be made divine, it does not take time for the worship or meditation room to become the best. And soon the experiences in meditation also become intense. Keeping this in mind, Nikhil Vatika has created the divine perfume which is the other.",
         "This perfume contains:",
         "1. Pure musk perfume so that the pooja room can remain fragrant for many days, not 24 hours.",
@@ -285,33 +300,34 @@
     },
     {
         "name":"Melachite",
-        "img":"",
+        "img":"melachite.jpg",
         "desc":"THIS IS RARE AND HIGHLY POWERFUL STONE FOR REMOVING KIDNEY STONE AND STOMACH RELATED DISEASES. IT IS GIVEN WITH SPECIAL SIDDH SABAR MANTRA AND UPON WEARING KIDNES STONES PROBLEMS AND STOMACH PROBLEMS TENDS TO DECREASE AND ULTIMATELY FINISH. VERY HELPFUL IN CONTROLLING STONES IN KIDNES WHO REPEATEDLY DEVELOPS STONES IN KIDNEY",
         "price":"1400"
     },
     {
         "name":"Dhanvantri Kalash",
-        "img":"",
+        "img":"dhanvantrikalash.jpg",
         "desc":"THIS IS A BOWL MADE FROM SPECIAL STONE WHICH REMOVES TOXICITY FROM THE BODY. THIS IS HIGHLY POWERFUL AND IF THAT STONE IS RUBBED AND APPLIED OVER SNAKE BITES, IT REMOVES POISON FROM THE BODY. IT IS HIGHLY BENEFICIAL FOR THE HEALTH IF WATER IS DRINK FROM THIS BOWL.",
         "price":"1800"
     },
     {
         "name":"Ling Bhairavi Shri Yantra",
-        "img":"",
+        "img":"lingbhairavishriyantra.jpg",
         "desc":"THIS IS HIGHLY AUSPICIOUS SRI YANTRA MADE FROM CNC MACHINE FOR HAVING PERFECT GEOMETRY AND DIMENSIONS. ALSO IT IS HIGHLY AUSPICIOUS TO HAVE THIS AMAZING AND FAST RESULT GIVING SRI YANTRA IN HOME. IT IS HAVING HIGH AURA OF AROUND 45 FEETS OF POSITIVE ENERGY. BELOW IT , A SPECIAL SHIVLING MADE FROM 16HERBS AND PARAD IS INSERTED TO JOINT THE UNION BETWEEN SHIVA AND PARVATI. THIS SRI YANTRA IS HAVING BOTH SHIVA AND PARVATI AND THUS GIVING UTMOST RESULT. IT IS PREPARED WITH PROPER MANTRA AND 16 YOGINI STHAPAN WITH NAVAVARAN POOJAN.",
         "price":"15000"
     },
     {
         "name":"Health Yantra",
-        "img":"",
+        "img":"healthyantra.jpg",
         "desc":"THIS YANTRA IS HIGHLY AUSPICIOUS AND POWERFUL IN REMOVING ANY TYPE OF DISEASES. THIS YANTRA IS SOLUTION FOR REMOVING ALL DISEASES ARISES FROM TANTRA OR HEALTH DISORDERS. THIS IS TO BE DIPPED IN WATER AND TO BE DRINK REGULARLY FOR 40 DAYS. WHOLE PROCESS IS TO BE GIVEN ALONG WIT H YANTRA.",
         "price":"8000"
     },
     {
         "name":"Black Turmeric/ Kaali haldi",
-        "img":"",
+        "img":"blackturmeric.jpg",
         "desc":"THIS IS A WONDER FROM MOTHER EARTH. HIGHLY RARE AND AUTHENTIC AND RESULT GIVEN. THIS REMOVES ALL TANTRA AND GIVES FULL PROTECTION. HELPS IN ACHIEVING GLIMPSES DURING SADHANA. WHEN PUT IN LOCKET AND WEARS REMOVES NAZAR DOSH AND GIVES WEALTH AND PROSPERITY.",
         "price":"3100"
     }
     ]
+}]
 }
