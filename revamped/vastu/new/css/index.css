@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 body{
     position: relative;
     overflow-x:hidden;
     width: 100%;
     height:auto;
+    
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wow {
+    visibility: hidden;
 }
 h4{
     position: relative;
@@ -18,7 +28,7 @@ p{
 }
 .icon{
     position: relative;
-    color: #fff;
+    color:#fdd03b;
     padding-top: 4px;
     text-shadow: 1px 1px 1px #ccc;
 }
@@ -30,18 +40,26 @@ section{
 .navbar-toggler{
     position: absolute;
     right:5%;
+    color: white;
 }
 .nav-link{
     color: white;
+    transition: all 0.2s;
+}
+.nav-link:hover{
+    color: #fdd03b !important;
 }
 .navbar-brand{
     position: relative;
     left: 6px;
     color: white;
 }
+.nav-item{
+    font-size: 1.1em;
+}
 nav{
+    font-family: 'Josefin Sans', sans-serif;
     position: relative;
-    padding-top: 1% !important;
     padding-bottom: 1% !important;
 }
 
@@ -55,24 +73,106 @@ header{
 }
 
 #typestuff{
-    position: absolute;
+    position: relative;
     margin: auto;
     color: white;
     display: block;
-    left: 25%;
-    top: 45%;
 }
-
 .intro-pc{
     position: relative;
     width: 100%;
-    height:70vh;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
     margin-bottom:6% !important;
     box-shadow: inset 0 0 8px 4px rgba(0,0,0,0.2);
-    background: url("../assets/dotted.png"), url("../assets/bg.jpg");
+    background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../assets/cosmos-bg.jpg");
     background-size: cover;
-    background-position-y: -100px;
     background-attachment: fixed;
+}
+.cloud{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../assets/cloud.png");
+    animation: animate 60s linear infinite;
+    z-index: 0;
+}
+@keyframes animate
+{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: 5440px;
+    }
+}
+
+
+#typed-strings{
+    display:none;
+}
+@media only screen and (max-width: 600px){
+    nav{
+        z-index:2;
+        padding-top: 3% !important;
+    }
+    #typestuff{
+        top: 17vh;
+    }
+    .fix-typed{
+        font-family: 'Caveat', cursive;
+        word-wrap: break-word;
+        font-size: 2.1em;
+    }
+    #typed{
+        font-family: 'Caveat', cursive;
+        font-size: 1.7em;
+    }
+    .intro-pc{
+        height:50vh;
+    }
+    #desktop{
+        display: none;
+    }
+    #about{
+        position: relative;
+        padding: 5%;
+    }
+    .services-col{
+        margin-top: 30%;
+    }
+}
+@media only screen and (min-width: 601px){
+    nav{
+        padding-top: 1% !important;
+    }
+    #typestuff{
+        top: 30vh;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .fix-typed{
+        position: relative;
+        font-family: 'Caveat', cursive;
+        font-size: 3.0em;
+    }
+    #typed{
+        font-family: 'Caveat', cursive;
+        font-size: 2.5em;
+    }
+    .intro-pc{
+        height:70vh; 
+    }
+    #mobile{
+        display: none;
+    }
+    .services-col{
+        margin-top: 10%;
+    }
 }
 
 .services-cardbox{
@@ -81,7 +181,9 @@ header{
     height:auto;
     padding-top:3%;
     padding-bottom:3%;
-    border-radius: 8px;
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/milky.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .services-row{
@@ -93,7 +195,7 @@ header{
 .services-col{
     position: relative;
     width: 80%;
-    margin-top:10%;
+    cursor: default !important;
 }
 
 .card-thumb{
@@ -102,8 +204,10 @@ header{
     padding-bottom: 10%;
     padding-left: 8%;
     padding-right: 8%;
+    color: white !important;
     border-radius: 0px !important;
-    border-bottom: 2px solid #be2edd;
+    border: 2px solid #fdd03b !important;
+    background-color: rgb(11, 18, 39);
 }
 
 .card-text{
@@ -111,7 +215,9 @@ header{
     text-align: center;
 }
 
-
+.services{
+    box-shadow: 0 0 3px 3px rgba(37, 36, 36, 0.1);
+}
 .services .icon {
     position: absolute;
     top: -25px;
@@ -122,7 +228,7 @@ header{
     z-index:2 !important;
     display: table;
     margin: 0 auto;
-    background: #be2edd; }
+    background: rgb(15, 24, 53); }
     .services .icon:before, .services .icon:after {
       position: absolute;
       left: 0;
@@ -134,17 +240,17 @@ header{
       height: 0;
       border-style: solid;
       border-width: 0 50px 30px 50px;
-      border-color: transparent transparent #be2edd transparent; }
+      border-color: transparent transparent rgb(15, 24, 53) transparent; }
     .services .icon:after {
       bottom: -30px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 30px 50px 0 50px;
-      border-color: #be2edd transparent transparent transparent; }
+      border-color: rgb(15, 24, 53) transparent transparent transparent; }
     .services .icon i {
       font-size: 30px;
-      color: #fff;
+      color: #d4af37;
       z-index: 1;
       display: table-cell;
       vertical-align: middle; }
@@ -171,10 +277,6 @@ header{
     position: relative;
     text-align: center;
     margin-top: 4%;
-}
-
-.card{
-    border: none !important;
 }
 
 .product-chip{
