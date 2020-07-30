@@ -176,12 +176,12 @@
             $.each(value, function(ind,val){
               $.each(val, function(i,v){
                 list += '<div class="mix-card card" style="width: 18rem;">' + 
-                        '<img class="card-img-top" src="assets/product-thumbnails/' + v['img'] + '" alt="Card image cap">' +
-                        '<div class="card-body">' +
+                        '<img class="card-img-top" src="assets/products/' + v['img'] + '" alt="Card image cap">' +
+                        '<div class="content">' +
                         '<span class="card-title">' + v['name'] + '</span>' +
                         '<ul class="list-group list-group-flush">' +
                             '<li class="list-group-item">₹<span>' + v['price'] + '</span></li>' +
-                            '<li class="list-group-item"><a href="#"><span>Benefits <i style="position:relative; top:1px;" class="fas fa-angle-right"></i></span></a></li>' +
+                            //'<li class="list-group-item"><a href="#"><span>Benefits <i style="position:relative; top:1px;" class="fas fa-angle-right"></i></span></a></li>' +
                          '</ul>' +
                         '</div>' +
                       '</div>'
@@ -192,8 +192,8 @@
       }
       }
 
-      req.open("GET", "https://api.jsonbin.io/b/5f1ec419c1edc466175f3ebc/1", true);
-      req.setRequestHeader("secret-key", "$2b$10$5wdP1w5Yckb1MCKHY8xQWuEEtJF4mEf9tCAeBv2sZIAk2D4/sC34y");
+      req.open("GET", "https://api.jsonbin.io/b/5f22cebf250d377b5dc6ea76/latest", true);
+      req.setRequestHeader("secret-key", "$2b$10$uQW.IThWVBhxPZmY2DqOY.nqwwgL0oJdUPLNR3yTglnS7N4DaIUy6");
       req.send();
 
 });
