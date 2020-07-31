@@ -51,7 +51,7 @@
 
       <div id="uplift">
       <div class="container-fluid text-center">
-        <div class="d-flex bd-highlight mb-2 flex-wrap justify-content-center">
+        <div class="d-flex bd-highlight flex-wrap justify-content-center">
           <span class="p-2 bd-highlight mix-btn select" data-filter=".category-a">Parad Gutika</span>
           <span class="p-2 bd-highlight mix-btn" data-filter=".category-b">Parad Shivling</span>
           <span class="p-2 bd-highlight mix-btn" data-filter=".category-c">Parad Products</span>
@@ -62,22 +62,22 @@
 
       <div class="mix-container">
           <div class="mix category-a" data-order="1">
-            <div id="parad-gutika" class="d-flex bd-highlight mb-2 flex-wrap justify-content-around"></div>
+            <div id="parad-gutika" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
           <div class="mix category-b" data-order="2">
-            <div id="parad-shivling" class="d-flex bd-highlight mb-2 flex-wrap justify-content-around"></div>
+            <div id="parad-shivling" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
           <div class="mix category-c" data-order="3">
-            <div id="parad-products" class="d-flex bd-highlight mb-2 flex-wrap justify-content-around"></div>
+            <div id="parad-products" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
           <div class="mix category-d" data-order="4">
-            <div id="navapashan" class="d-flex bd-highlight mb-2 flex-wrap justify-content-around"></div>
+            <div id="navapashan" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
           <div id="malaros" class="mix category-e" data-order="5">
-            <div id="mala-rosery" class="d-flex bd-highlight mb-2 flex-wrap justify-content-around"></div>
+            <div id="mala-rosery" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
           <div id="rareit" class="mix category-f" data-order="6">
-            <div id="rare-items" class="d-flex bd-highlight mb-2 flex-wrap justify-content-around"></div>
+            <div id="rare-items" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
           </div>
     </div>
@@ -114,7 +114,14 @@
           <div class="footer-widget">
             <h3>Latest Events</h3>
             <div class="footer-widget-content">
-              
+              <div class="open-time ">
+                <ul class="opening-time">
+                  <li><span><i class="fas fa-star"></i></span><p><strong>Kundali Analysis</strong><br/>₹ 800 per session (1 hour)</p></li>
+                  <li><span><i class="fas fa-star"></i></span><p><strong>Match Making</strong><br/>₹ 1200 per session (2 hour)</p></li>
+                  <li><span><i class="fas fa-star"></i></span><p><strong>Vastu Correction</strong><br/>₹ 8000 per visit (3 hour)</p></li>
+                  <li><span><i class="fas fa-star"></i></span><p><strong>Vastu Planning</strong><br/>₹ 22000 per property</p></li>
+                </ul>
+              </div>
             </div>
             </div>
           </div>
@@ -178,13 +185,15 @@
                 list += '<div class="mix-card card" style="width: 18rem;">' + 
                         '<img class="card-img-top" src="assets/products/' + v['img'] + '" alt="Card image cap">' +
                         '<div class="content">' +
-                        '<span class="card-title">' + v['name'] + '</span>' +
-                        '<ul class="list-group list-group-flush">' +
+                        '<span class="card-title">' + v['name'] + '</span>';
+                        if(v['price']){
+                        list += '<ul class="list-group list-group-flush">' +
                             '<li class="list-group-item">₹<span>' + v['price'] + '</span></li>' +
                             //'<li class="list-group-item"><a href="#"><span>Benefits <i style="position:relative; top:1px;" class="fas fa-angle-right"></i></span></a></li>' +
-                         '</ul>' +
-                        '</div>' +
-                      '</div>'
+                         '</ul>';
+                         }
+                        list += '</div>' +
+                      '</div>';   
               });
             });
             $("#" + Object.keys(value)[0]).append(list);

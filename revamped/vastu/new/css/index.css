@@ -11,9 +11,10 @@ body{
     overflow-x:hidden;
     width: 100%;
     height:auto;
-    
-    background-size: cover;
-    background-attachment: fixed;
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
 }
 .wow {
     visibility: hidden;
@@ -48,10 +49,10 @@ section{
 .navbar-toggler{
     position: absolute;
     right:5%;
-    color: white;
+    color: white !important;
 }
 .nav-link{
-    color: white;
+    color: white !important;
     transition: all 0.2s;
 }
 .nav-link:hover{
@@ -109,6 +110,7 @@ header{
     animation: animate 60s linear infinite;
     z-index: 0;
 }
+
 @keyframes animate
 {
     0%{
@@ -125,6 +127,7 @@ header{
 }
 
 #about{
+    position: relative;
     padding-bottom: 5%;
 }
 @media only screen and (max-width: 600px){
@@ -278,8 +281,22 @@ header{
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 4%;
 }
-
+.product-explore{
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    width: inherit;
+    height: auto;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 1%;
+    transition: all 0.2s;
+    box-shadow: 0 0 5px 5px rgba(251, 251, 251, 0.1);
+}
+.product-explore:hover{
+    box-shadow: 0 0 8px 8px rgba(251, 251, 251, 0.2);
+}
 .card-img-top{
     position: relative;
     padding: 5%;
@@ -289,18 +306,20 @@ header{
 .pro-col{
     position: relative;
     text-align: center;
-    margin-top: 4%;
+
 }
 #products{
     position: relative;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     color: white;
 }
 
 .product-img{
     position: relative;
     filter: grayscale(50%);
+    padding: 0 !important;
+    transition: all 0.3s;
 }
 
 .product-chip{
@@ -308,11 +327,14 @@ header{
     background: transparent;
     border-radius: 0;
     margin: 10%;
-    box-shadow: 0 0 3px 3px rgba(251, 251, 251, 0.1);
+    
     transition: all 0.5s;
 }
 .product-chip:hover{
     box-shadow: 0 0 5px 5px rgba(251, 251, 251, 0.1);
+}
+.product-chip:hover .product-img{
+    filter: grayscale(0%);
 }
 /* Carousel */
 
