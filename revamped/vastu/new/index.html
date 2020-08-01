@@ -14,11 +14,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
     <link rel="stylesheet" href="css/index.css"/>
 </head>
-<body>
+<body onload="remload()">
+
+  <!-- LOADER-->
+  <div class="curtains">
+       <img src="assets/logo/logosmall.png" class="img-fluid loader-logo"/>
+       <div class="spinner-border loader-logo" role="status">
+          <span class="sr-only">Loading...</span>
+      </div>
+  </div>
+    
     <header>
         <nav class="navbar navbar-expand-md">
             <div class="container d-flex flex-column justify-content-between">
-                <a class="navbar-brand" href="index.html">LOGO</a>
+                <a class="navbar-brand text-center" href="index.html"><img src="assets/logo/logosmall.png" class="img-fluid logo"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                   </button>
@@ -58,29 +67,24 @@
 
     <section id="about">
         <div class="container text-center">
-            <h4 class="wow fadeInUp">ABOUT</h4>
+            <h4 class="wow fadeInUp mb-5">ABOUT</h4>
             <div id="desktop">
-            <p class="wow fadeInUp">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae mi viverra sapien mollis maximus. Nullam laoreet vulputate dui nec suscipit.
-                Maecenas magna tellus, vulputate ac laoreet vel, condimentum nec mi. Sed iaculis tincidunt erat sit amet vulputate. Aliquam commodo viverra sagittis.
-                Ut varius tellus sed diam dignissim, vel dictum diam eleifend. Vestibulum pharetra, leo at faucibus cursus, risus leo lobortis risus, nec pretium arcu nisi vel lacus. 
-                Quisque blandit ornare lectus in venenatis. Donec suscipit dui a ipsum ornare vestibulum. Nullam et tristique sem.
-                In porttitor bibendum accumsan Donec nec odio.
+            <p style="text-align: center !important;" class="wow fadeInUp ">
+              Kalpvriksh is a one-stop destination for all your Astrology & Vastu related queries. The  platform is ventured by Ms. Kalpana Pande who is an educational counsellor and philanthropist turned Astro & Vastu consultant.
+              We often neglect the smaller details in our every day life that give rise to bigger problems. Or, many new opportunities are missed unknowingly because of your unstable mind. Our purpose is to guide you through the right path based on the alignment of your stars. We want to make sure that you don't miss any good opportunity and be prepared for any unwanted situation.
             </p>
 
-            <p class="wow fadeInUp">
-                Donec non ex quis tellus maximus tincidunt sit amet eget quam. Suspendisse potenti. Nullam nisl ante, tincidunt eget aliquam nec, tristique at velit.
-                Cras et odio quis ante maximus placerat. Fusce id rutrum turpis. Curabitur volutpat arcu ac turpis efficitur malesuada. Vivamus elementum neque urna, sed imperdiet metus congue sit amet.
-                In fringilla lacus at posuere varius. Vivamus vulputate augue non consequat rutrum. Integer hendrerit ligula a lacus pellentesque ed.
+            <p style="text-align: center !important;" class="wow fadeInUp">
+              We are also into advising and providing all kinds of parad products based on their relevance to your life.
             </p>
           </div>
 
           <div id="mobile">
-            <p class="wow fadeInUp">
-                Donec non ex quis tellus maximus tincidunt sit amet eget quam. Suspendisse potenti. Nullam nisl ante, tincidunt eget aliquam nec, tristique at velit.
-                Cras et odio quis ante maximus placerat. Fusce id rutrum turpis. Curabitur volutpat arcu ac turpis efficitur malesuada. Vivamus elementum neque urna, sed imperdiet metus congue sit amet.
-                In fringilla lacus at posuere varius. Vivamus vulputate augue non consequat rutrum. Integer hendrerit ligula a lacus pellentesque.
-            </p>
+            <p style="text-align: center !important;" class="wow fadeInUp">
+              Kalpvriksh is a one-stop destination for all your Astrology & Vastu related queries. The  platform is ventured by Ms. Kalpana Pande who is an educational counsellor and philanthropist turned Astro & Vastu consultant.
+              We often neglect the smaller details in our every day life that give rise to bigger problems. Or, many new opportunities are missed unknowingly because of your unstable mind.<br/><br/> Our purpose is to guide you through the right path based on the alignment of your stars. We want to make sure that you don't miss any good opportunity and be prepared for any unwanted situation.
+              We are also into advising and providing all kinds of parad products based on their relevance to your life.
+              </p>
           </div>
         </div>
     </section>
@@ -101,7 +105,7 @@
                       <div class="card-thumb card">
                         <div class="card-body wow pulse" data-wow-delay="1s">
                           <h6 class="card-title"><strong>Astrology</strong></h6>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <p class="card-text">Unveil the pages of your future to reach new heights</p>
                         </div>
                       </div>
                     </div>
@@ -116,7 +120,7 @@
                          <div class="card-thumb card">
                           <div class="card-body wow pulse" data-wow-delay="1s">
                             <h6 class="card-title"><strong>Vastu</strong></h6>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="card-text">Identify the right directions of life for great results</p>
                           </div>
                         </div>
                       </div>
@@ -130,7 +134,7 @@
                       <div class="card-thumb card">
                         <div class="card-body wow pulse" data-wow-delay="1s">
                           <h6 class="card-title"><strong>Numerology</strong></h6>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <p class="card-text">Let the power of numbers define your decisions</p>
                         </div>
                       </div>
                     </div>
@@ -146,7 +150,7 @@
                       <div class="card-thumb card wow pulse" data-wow-delay="1s">
                         <div class="card-body">
                           <h6 class="card-title"><strong>Meditation</strong></h6>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <p class="card-text">Path to a spiritual life is through a peaceful mind</p>
                         </div>
                       </div>
                     </div>
@@ -159,7 +163,7 @@
                       <div class="card-thumb card wow pulse" data-wow-delay="1s">
                         <div class="card-body">
                           <h6 class="card-title"><strong>Horoscope Analysis</strong></h6>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <p class="card-text">Your Kundli can tell what to keep and avoid for success</p>
                         </div>
                       </div>
                     </div>
@@ -172,7 +176,7 @@
                       <div class="card-thumb card wow pulse" data-wow-delay="1s">
                         <div class="card-body">
                           <h6 class="card-title"><strong>Tarot Card Reading</strong></h6>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <p class="card-text">Tarot Readings have been changing lives for centuries</p>
                         </div>
                       </div>
                     </div>
@@ -188,16 +192,16 @@
       
       <div id="uplift">
       <div class="text-center">
-            <h4 style="margin-top: 0 !important;" class="wow fadeInUp">PRODUCTS</h4>
+            <h4 style="margin-top: 0 !important; margin-bottom: 6% !important;" class="mb-5 wow fadeInUp">PRODUCTS</h4>
             <div class="container">
-              <p style="font-family: 'Signika', sans-serif;" class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae mi viverra sapien mollis maximus. Nullam laoreet vulputate dui nec suscipit. Maecenas magna tellus, vulputate ac laoreet vel, condimentum nec mi. Sed iaculis tincidunt erat sit amet vulputate. Aliquam commodo viverra sagittis. Ut varius tellus sed diam dignissim, vel dictum diam eleifend. Vestibulum pharetra, leo at faucibus cursus, risus leo lobortis risus, nec pretium arcu nisi vel lacus. Quisque blandit ornare lectus in venenatis. Donec suscipit dui a ipsum ornare vestibulum. Nullam et tristique sem. In porttitor bibendum accumsan Donec nec odio. </p>
+              <p style="font-family: 'Signika', sans-serif; text-align: center !important;" class="product-para wow fadeInUp">Our products include Rudraksh, Parad Shivling, Stones, and Yantras, etc. You can browse through our products section to find the one that you need or reach out to us via 'Contact us' section if you need advise about which product is the best for you.</p>
             </div>
 
         <div class="container-fluid">
           <div class="product-chips">
             <div class="row">
-              <div class="col-12 col-sm-12 col-md-3 col-lg-3 pro-col wow fadeInUp">
-                  <div class="card product-chip mx-auto wow pulse" data-wow-delay="1s">
+              <div class="col-12 col-sm-12 col-md-3 col-lg-3 pro-col wow fadeInUp" data-wow-delay='1s' data-wow-offset="4">
+                  <div class="card product-chip mx-auto wow pulse" data-wow-delay="2s">
                     <img class="product-img card-img-top" src="assets/product-thumbnails/paradshivling.png" alt="Parad products">
                     <div class="card-body">
                       <h6 class="card-title product-title">Parad Products</h6>
@@ -206,8 +210,8 @@
                   </div>
               </div>
 
-              <div class="col-12 col-sm-12 col-md-3 col-lg-3 pro-col wow fadeInUp">
-                    <div class="card product-chip mx-auto wow pulse" data-wow-delay="1s">
+              <div class="col-12 col-sm-12 col-md-3 col-lg-3 pro-col wow fadeInUp" data-wow-delay='1s' data-wow-offset="4">
+                    <div class="card product-chip mx-auto wow pulse" data-wow-delay="2s">
                       <img class="product-img card-img-top" src="assets/product-thumbnails/malachite.png" alt="Rare Products">
                       <div class="card-body">
                         <h6 class="card-title product-title">Rare Products</h6>
@@ -216,8 +220,8 @@
                     </div>
               </div>
 
-              <div class="col-12 col-sm-12 col-md-3 col-lg-3 pro-col wow fadeInUp">
-                  <div class="card product-chip mx-auto wow pulse" data-wow-delay="1s">
+              <div class="col-12 col-sm-12 col-md-3 col-lg-3 pro-col wow fadeInUp" data-wow-delay='1s' data-wow-offset="4">
+                  <div class="card product-chip mx-auto wow pulse" data-wow-delay="2s">
                     <img class="product-img card-img-top" src="assets/product-thumbnails/mala.png" alt="Mala & Rosery Products">
                     <div class="card-body">
                       <h6 class="card-title product-title">Mala & Rosery</h6>
@@ -226,8 +230,8 @@
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pro-col wow fadeInUp">
-                <div class="card product-chip mx-auto wow pulse" data-wow-delay="1s">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pro-col wow fadeInUp" data-wow-delay='1s' data-wow-offset="4">
+                <div class="card product-chip mx-auto wow pulse" data-wow-delay="2s">
                   <img class="product-img card-img-top" src="assets/product-thumbnails/navapashan.png" alt="Navpashan Products">
                   <div class="card-body">
                     <h6 class="card-title product-title">Navpashan</h6>
@@ -237,7 +241,7 @@
               </div>
             </div>
         </div>
-      </div>
+      </div><br/><br/>
       <a href="products.html"><span class="product-explore wow fadeInUp">Explore All Products !</span></a>
     </div>
   </div>
@@ -251,7 +255,7 @@
     <div class="container footer-container">
       <div class="row">
         <div class="col-sm-3">
-          <div class="footer-widget">
+          <div class="footer-widget wow fadeInUp">
             <h3>Stay in touch</h3>
             <div class="footer-widget-content">
               <div>1481/2A Civil Lines,<br/> Officers Colony,<br/> Jhansi(284003) - U.P.</div>
@@ -262,7 +266,7 @@
               <a href="tel:9984360708" class="contact-link">(+91) 9984360708</a>
               </div>
               <div class="footer-social">
-              <ul>
+              <ul class="foot-social">
                 <li><a href="https://www.facebook.com/kalpana.pande.775"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/kalpanapande/?hl=en"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="https://twitter.com/KPande19"><i class="fab fa-twitter"></i></a></li>
@@ -273,12 +277,12 @@
           </div>
         </div>
         <div class="col-sm-3">
-        <div class="footer-widget">
+        <div class="footer-widget wow fadeInUp">
           <h3>Session Pricing</h3>
           <div class="footer-widget-content">
-            <div class="open-time ">
-              <ul class="opening-time">
-                <li><span><i class="fas fa-star"></i></span><p><strong>Kundali Analysis</strong><br/>₹ 800 per session (1 hour)</p></li>
+            <div class="open-time text-center">
+              <ul class="wid-list text-center opening-time">
+                <li class="mx-auto"><span><i class="fas fa-star"></i></span><p><strong>Kundali Analysis</strong><br/>₹ 800 per session (1 hour)</p></li>
                 <li><span><i class="fas fa-star"></i></span><p><strong>Match Making</strong><br/>₹ 1200 per session (2 hour)</p></li>
                 <li><span><i class="fas fa-star"></i></span><p><strong>Vastu Correction</strong><br/>₹ 8000 per visit (3 hour)</p></li>
                 <li><span><i class="fas fa-star"></i></span><p><strong>Vastu Planning</strong><br/>₹ 22000 per property</p></li>
@@ -288,11 +292,11 @@
           </div>
         </div>
         <div class="col-sm-3">
-        <div class="footer-widget">
+        <div class="footer-widget wow fadeInUp">
           <h3>Opening Hour</h3>
           <div class="footer-widget-content">
           <div class="open-time ">
-            <ul class="opening-time">
+            <ul class="wid-list opening-time">
               <li><span><i class="fa fa-check"></i></span><p><strong>Mon-Fri :</strong> 10:00am - 06:00pm</p></li>
               <li><span><i class="fa fa-check"></i></span><p><strong>Sat :</strong> 12:00am - 04:00pm</p></li>
               <li><span><i class="fa fa-check"></i></span><p><strong>Sunday :</strong> Closed</p></li>
@@ -302,7 +306,7 @@
           </div></div>
         
         <div class="col-sm-3">
-        <div class="footer-widget">
+        <div class="footer-widget wow fadeInUp">
           <h3>Founder's Message</h3>
           <div class="footer-widget-content">
             <div class="embed-responsive embed-responsive-16by9 mb-4">
@@ -316,12 +320,16 @@
   </footer>
 
   <div class="copyright text-center">
-    Copyright &copy; 2020 <span>|| Kalpvriksh All Rights Reserved</span>
+    &copy; Copyright 2020 Kalpvriksh<span> || All Rights Reserved</span>
   </div>
   
   <!-- Warning: JavaScript Ahead !! -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>
+    function remload(){
+      $(".curtains").css("display","none");
+      $("html").css("overflow-y","initial");
+    }
     var wow = new WOW({
         boxClass: 'wow',
         animateClass: 'animated',

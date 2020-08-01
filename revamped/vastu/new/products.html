@@ -18,14 +18,22 @@
 </head>
 <body>
 
+    <!-- LOADER-->
+  <div class="curtains">
+     <img src="assets/logo/logosmall.png" class="img-fluid loader-logo"/>
+     <div class="spinner-border loader-logo" role="status">
+       <span class="sr-only">Loading...</span>
+     </div>
+  </div>
+
     <header>
         <nav class="navbar navbar-expand-md">
             <div class="container d-flex flex-column justify-content-between">
-                <a class="navbar-brand" href="#">LOGO</a>
+              <a class="navbar-brand text-center" href="products.html"><img src="assets/logo/logosmall.png" class="img-fluid logo"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <!--<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item text-center active">
                       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -40,7 +48,7 @@
                         <a class="nav-link" href="index.html#contact">Contacts</a>
                     </li>      
                   </ul>
-            </div>
+            </div>-->
             </div>
           </nav>
     </header>
@@ -53,6 +61,7 @@
       <div class="container-fluid text-center">
         <div class="d-flex bd-highlight flex-wrap justify-content-center">
           <span class="p-2 bd-highlight mix-btn select" data-filter=".category-a">Parad Gutika</span>
+          <span class="p-2 bd-highlight mix-btn" data-filter=".category-l">Rudraksh</span>
           <span class="p-2 bd-highlight mix-btn" data-filter=".category-b">Parad Shivling</span>
           <span class="p-2 bd-highlight mix-btn" data-filter=".category-c">Parad Products</span>
           <span class="p-2 bd-highlight mix-btn" data-filter=".category-d">Navapashan</span>
@@ -61,22 +70,25 @@
         </div>
 
       <div class="mix-container">
-          <div class="mix category-a" data-order="1">
+          <div class="mix category-l" data-order="1">
+            <div id="rudraksh" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
+          </div>
+          <div class="mix category-a" data-order="2">
             <div id="parad-gutika" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
-          <div class="mix category-b" data-order="2">
+          <div class="mix category-b" data-order="3">
             <div id="parad-shivling" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
-          <div class="mix category-c" data-order="3">
+          <div class="mix category-c" data-order="4">
             <div id="parad-products" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
-          <div class="mix category-d" data-order="4">
+          <div class="mix category-d" data-order="5">
             <div id="navapashan" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
-          <div id="malaros" class="mix category-e" data-order="5">
+          <div id="malaros" class="mix category-e" data-order="6">
             <div id="mala-rosery" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
-          <div id="rareit" class="mix category-f" data-order="6">
+          <div id="rareit" class="mix category-f" data-order="7">
             <div id="rare-items" class="d-flex bd-highlight flex-wrap justify-content-around"></div>
           </div>
           </div>
@@ -100,7 +112,7 @@
                 <a href="tel:9984360708" class="contact-link">(+91) 9984360708</a>
                 </div>
                 <div class="footer-social">
-                <ul>
+                <ul class="foot-social">
                   <li><a href="https://www.facebook.com/kalpana.pande.775"><i class="fab fa-facebook"></i></a></li>
                   <li><a href="https://www.instagram.com/kalpanapande/?hl=en"><i class="fab fa-instagram"></i></a></li>
                   <li><a href="https://twitter.com/KPande19"><i class="fab fa-twitter"></i></a></li>
@@ -178,6 +190,7 @@
       req.onreadystatechange = () => {
         if (req.readyState == XMLHttpRequest.DONE) {
           var products = JSON.parse(req.responseText)['products'];
+          console.log(products);
           $.each(products, function(index, value){
             let list=""
             $.each(value, function(ind,val){
@@ -197,6 +210,8 @@
               });
             });
             $("#" + Object.keys(value)[0]).append(list);
+            $(".curtains").css('display','none');
+            $("html").css('overflow-y','initial');
           });
       }
       }

@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
-
-
 html {
     scroll-behavior: smooth;
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
 body{
     position: relative;
-    overflow-x:hidden;
     width: 100%;
     height:auto;
 }
 a{
     text-decoration: none !important;
     color: inherit !important;
+}
+p{
+    font-family: 'Signika', sans-serif !important;
 }
 .wow {
     visibility: hidden;
@@ -49,6 +51,7 @@ section{
 .navbar-toggler{
     position: absolute;
     right:5%;
+    z-index: 12;
     color: white !important;
 }
 .nav-link{
@@ -57,6 +60,12 @@ section{
 }
 .nav-link:hover{
     color: #fdd03b !important;
+}
+.logo{
+    position: relative;
+    width: 80%;
+    padding-bottom: 5%;
+    height: auto;
 }
 .navbar-brand{
     position: relative;
@@ -71,6 +80,28 @@ nav{
     position: relative;
     padding-bottom: 1% !important;
 }
+.navbar-nav{
+    border-top: 2px solid white;
+}
+
+/* LOADER */
+.curtains{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-top: 0 !important;
+    z-index: 5;
+    background-color: #000;
+}
+.loader-logo{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 28vh;
+    margin-top: 2%;
+    color: white !important;
+    z-index: 10 !important;
+}
 
 header{
     position: absolute;
@@ -84,6 +115,7 @@ header{
 #typestuff{
     position: relative;
     margin: auto;
+    top: 40% !important;
     color: white;
     display: block;
 }
@@ -129,26 +161,41 @@ header{
 #about{
     position: relative;
     padding-bottom: 5%;
+    text-align: center !important;
 }
+
 @media only screen and (max-width: 600px){
+    .navbar-collapse{
+        position: fixed;
+        margin: 0 !important;
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .product-para{
+        position: relative;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .product-explore{
+        padding: 5%;
+    }
     nav{
         z-index:2;
         padding-top: 3% !important;
     }
-    #typestuff{
-        top: 17vh;
-    }
     .fix-typed{
         font-family: 'Caveat', cursive;
         word-wrap: break-word;
-        font-size: 2.1em;
+        font-size: 2.0em;
+        top: 7%;
     }
     #typed{
         font-family: 'Caveat', cursive;
-        font-size: 1.7em;
+        font-size: 1.5em;
+        top: 13%;
     }
     .intro-pc{
-        height:50vh;
+        height:70vh;
     }
     #desktop{
         display: none;
@@ -162,6 +209,9 @@ header{
     }
 }
 @media only screen and (min-width: 601px){
+    .product-explore{
+        padding: 2%;
+    }
     nav{
         padding-top: 1% !important;
     }
@@ -173,14 +223,17 @@ header{
     .fix-typed{
         position: relative;
         font-family: 'Caveat', cursive;
-        font-size: 3.0em;
+        font-size: 3.5em;
+        top: 40px;
     }
     #typed{
+        position: relative;
         font-family: 'Caveat', cursive;
-        font-size: 2.5em;
+        font-size: 3.0em;
+        top: 40px;
     }
     .intro-pc{
-        height:70vh; 
+        height:100vh; 
     }
     #mobile{
         display: none;
@@ -193,8 +246,8 @@ header{
     position: relative;
     width: 100%;
     height:auto;
-    padding-top:3%;
-    padding-bottom:3%;
+    padding-top:8%;
+    padding-bottom:8%;
     background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/milky.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -279,6 +332,7 @@ header{
     font-family: 'Signika', sans-serif;
     width: 100%;
     height: auto;
+    padding-top: 3%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 4%;
@@ -289,8 +343,8 @@ header{
     width: inherit;
     height: auto;
     cursor: pointer;
-    font-size: 1.2em;
-    padding: 1%;
+    font-size: 1.5em;
+    margin-top: 40px !important;
     transition: all 0.2s;
     box-shadow: 0 0 5px 5px rgba(251, 251, 251, 0.1);
 }
@@ -310,8 +364,8 @@ header{
 }
 #products{
     position: relative;
-    padding-top: 5%;
-    padding-bottom: 8%;
+    padding-top: 10%;
+    padding-bottom: 12%;
     color: white;
 }
 
@@ -327,7 +381,7 @@ header{
     background: transparent;
     border-radius: 0;
     margin: 10%;
-    
+    cursor: default !important;
     transition: all 0.5s;
 }
 .product-chip:hover{
@@ -348,12 +402,15 @@ header{
     font-family: 'Josefin Sans', sans-serif;
     border-top: 1px solid rgba(251,251,251,0.2);
     background-color: black;
-    padding: 80px 0;
+    padding: 10% 0 5% 0;
     z-index: 4;
+    text-align: left !important;
 }
+
 .footer-widget-content{
     font-family: 'Signika', sans-serif;
     color: white;
+    padding-bottom: 6%;
 }
 footer .footer-widget h3 {
     margin-bottom: 30px;
@@ -367,11 +424,6 @@ footer .contact-link {
 footer .footer-social ul {
     padding-left: 0;
 }
-footer .footer-social ul li {
-    list-style: none;
-    float: left;
-    padding: 0 10px;
-}
 footer .footer-social ul li:first-child {
     padding-left: 0;
 }
@@ -379,19 +431,13 @@ footer .footer-social ul li a {
     font-size: 20px;
     color: rgb(255, 255, 255);
 }
-footer .footer-social ul li a:hover {
-    color: #fdd03b;
-}
 footer .opening-time {
     padding-left: 0;
 }
 footer .opening-time li {
     list-style: none;
 }
-footer .opening-time li span {
-    float: left;
-    padding-right: 10px;
-}
+
 footer .opening-time li span .fa-times {
     color: #fdd03b;
 }
@@ -408,15 +454,9 @@ footer .media-body span {
     color: #f8f7f7;
 }
 footer .images-gellary ul {
-    padding-left: 0;
+    padding-left: 0 !important;
 }
-footer .images-gellary ul li {
-    list-style: none;
-    float: left;
-    margin: 0 3% 2% 0;
-    width: 31%;
-    position: relative;
-}
+
 footer .images-gellary ul li:nth-child(3n) {
     margin: 0 0 1%;
 }
@@ -441,7 +481,70 @@ footer .images-gellary ul li:nth-child(3n) {
     color: #0894d1;
   }
 
+  @media only screen and (max-width: 600px){
+    .footer-widget{
+        position: relative;
+        text-align: center !important;
+        padding-bottom: 5%;
+    }
+    .footer-social{
+        padding-top: 5%;
+    }
+    .foot-social{
+        position: relative;
+        display: inline-block;
+        margin: auto; 
+        text-align: center;  
+    }
+    footer .images-gellary ul li p{
+        list-style: none;
+        float: left;
+        margin: 0 3% 2% 0;
+        width: 31%;
+        position: relative;
+    }
+    footer .opening-time li p{
+        float: center;
+        text-align: center !important;
+        padding-right: 10px;
+    }
+    footer .footer-social ul li {
+        list-style: none;
+        float: left;
+        padding: 0 10px;
+    }
+    footer .footer-social ul li a:hover {
+        color: #fdd03b;
+    }
+    .fa-check{
+        display: none;
+    }
+    .footer-widget .fa-star{
+        display: none;
+    }
+  }
 
+  @media only screen and (min-width: 601px){
+    footer .images-gellary ul li {
+        list-style: none;
+        float: left;
+        margin: 0 3% 2% 0;
+        width: 31%;
+        position: relative;
+    }
+    footer .opening-time li span {
+        float: left;
+        padding-right: 10px;
+    }
+    footer .footer-social ul li {
+        list-style: none;
+        float: left;
+        padding: 0 10px;
+    }
+    footer .footer-social ul li a:hover {
+        color: #fdd03b !important;
+    }
+  }
 /* Twinkling Stars  */
 
 #uplift{
@@ -498,4 +601,3 @@ footer .images-gellary ul li:nth-child(3n) {
       from {background-position:0 0;}
       to {background-position:-10000px 5000px;}
   }
-  */
