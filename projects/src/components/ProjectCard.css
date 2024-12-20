@@ -1,0 +1,72 @@
+.project-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-info {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .project-info h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .project-info p {
+    color: #666;
+  }
+  
+  .project-buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .demo-btn {
+    background-color: #007acc;
+  }
+  
+  .demo-btn:hover {
+    background-color: #005f99;
+  }
+  
+  .code-btn {
+    background-color: #28a745;
+  }
+  
+  .code-btn:hover {
+    background-color: #1e7c31;
+  }
+
+  .video-btn {
+    background-color: #a65a1b;
+  }
+
+  .video-btn:hover {
+    background-color: #7c4315;
+  }
+  
