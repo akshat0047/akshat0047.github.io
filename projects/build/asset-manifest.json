@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/projects/build/static/css/main.91383868.css",
-    "main.js": "/projects/build/static/js/main.cddce273.js",
+    "main.css": "/projects/build/static/css/main.19f6c92d.css",
+    "main.js": "/projects/build/static/js/main.9211f09c.js",
     "static/media/telegram-bot.png": "/projects/build/static/media/telegram-bot.a2c16ebea43decb18d33.png",
     "static/media/gaming.png": "/projects/build/static/media/gaming.ef5f2afeac04f741e8dd.png",
     "static/media/djangoBlog.png": "/projects/build/static/media/djangoBlog.73b9068bfe9f2bdb411f.png",
+    "static/media/wallet.png": "/projects/build/static/media/wallet.48593c95854736d1e1c7.png",
     "static/media/amixchange.png": "/projects/build/static/media/amixchange.654c2e099abaab4f2c8c.png",
     "static/media/awdash.png": "/projects/build/static/media/awdash.eb9637d65648a87713c2.png",
     "static/media/video-editor.png": "/projects/build/static/media/video-editor.9ad95d4c1c6438e4c6c5.png",
+    "static/media/video.png": "/projects/build/static/media/video.5edcce65e323c22f6c86.png",
     "static/media/fraped.png": "/projects/build/static/media/fraped.53fb68297628dfc19e42.png",
     "static/media/socket-chat.png": "/projects/build/static/media/socket-chat.16e50f2c946d41b18077.png",
-    "static/media/kubernetes.png": "/static/media/kubernetes.be2e3fd0dd27a3270d2c.png",
+    "static/media/chat.png": "/projects/build/static/media/chat.99e23e8077406d6c0246.png",
+    "static/media/phasor.jpeg": "/projects/build/static/media/phasor.aa77db08847151eae80f.jpeg",
+    "static/media/book.jpeg": "/projects/build/static/media/book.cab4fc42e3b80e8a7f3b.jpeg",
+    "static/media/analytics.jpeg": "/projects/build/static/media/analytics.146b9a11108b87be3871.jpeg",
+    "static/media/blog.jpeg": "/projects/build/static/media/blog.d4e339b21f4a02b00622.jpeg",
+    "static/media/kubernetes.png": "/projects/build/static/media/kubernetes.be2e3fd0dd27a3270d2c.png",
     "index.html": "/projects/build/index.html",
-    "main.91383868.css.map": "/projects/build/static/css/main.91383868.css.map",
-    "main.cddce273.js.map": "/projects/build/static/js/main.cddce273.js.map"
+    "main.19f6c92d.css.map": "/projects/build/static/css/main.19f6c92d.css.map",
+    "main.9211f09c.js.map": "/projects/build/static/js/main.9211f09c.js.map"
   },
   "entrypoints": [
-    "/projects/build/static/css/main.91383868.css",
-    "/projects/build/static/js/main.cddce273.js"
+    "static/css/main.19f6c92d.css",
+    "static/js/main.9211f09c.js"
   ]
 }

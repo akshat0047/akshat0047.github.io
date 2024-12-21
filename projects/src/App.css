@@ -11,9 +11,7 @@ body {
 
 .App-header {
   padding: 2rem;
-  background: #f2f3f7;
   color: rgba(0, 0, 0, 0.7);
-  box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
   font-weight: "Playfair Display", Georgia, serif !important;
 }
 
@@ -21,7 +19,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
-  padding: 2rem;
+  padding: 0 2em 2em 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
